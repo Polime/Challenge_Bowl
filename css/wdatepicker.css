@@ -1,0 +1,19 @@
+﻿.Wdate{
+       background-image: -webkit-linear-gradient(bottom, #eee 0%, #fff 100%);
+       background-position: center top;
+       background-repeat: no-repeat;
+       border-radius: 5px;
+       border: 1px solid #bbb;
+       color: #000;
+       text-align:left;
+       font-size: 12px;
+	border:#95B8E7  1px solid;
+	height:18px;
+	background-color:#fff url(../images/datepicker.gif) no-repeat right;
+}
+.Wdate::-ms-clear{display:none;}
+
+.WdateFmtErr{
+	font-weight:bold;
+	color:red;
+}

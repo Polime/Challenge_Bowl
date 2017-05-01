@@ -1,2 +1,0 @@
-# Challenge_Bowl
-PHP

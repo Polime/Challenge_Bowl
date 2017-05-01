@@ -1,0 +1,160 @@
+﻿@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	overflow: auto;
+    min-width: 1024px;
+    position: relative;
+}
+
+img{border:0;}
+.tcl-box{
+	overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    min-width: 1024px;
+   
+}
+
+.tcl-center {
+    width: 1024px;
+    height: 63px;
+    margin: 0 auto;
+
+}
+
+.tcl-logo { 
+    float: left;
+}
+/*.xf-goback {
+	float: right;
+    margin-top: 25px;
+    text-decoration: none;
+	border-radius:3px;
+  
+}
+.xf-goback:hover{ 
+   background-color: #fdf5b3;
+}*/	
+.tcl-main {
+	position: relative; 
+    height: 625px;
+    width: 1024px;
+	margin: 0 auto;
+	
+}
+.tcl-main-icon {
+	height: 463px;
+    width: 548px;
+    position: absolute;
+    left: 12px;
+    bottom: 0px;
+}
+.tcl-login {
+	width: 400px;
+	height: 445px;
+	float: right;
+	margin-top: 46px;
+	position: absolute;
+	top: 10px;
+	right: 0;
+	background-repeat: no-repeat;   
+}
+
+ /*------------------------------------------------- */
+.main {
+    
+    float: left;
+	margin-top:60px;
+}
+.kuang {
+    overflow: hidden;
+    position:relative;
+    margin-left: 28px;
+    margin-top: 34px;
+    width: 340px;
+}
+
+
+.tcl-longin-user {
+	
+	height: 50px;
+	background-image: url(../images/username-bg.png);
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+	border: 1px solid #B3AEAE;
+	position:absolute!important;
+	top:0px!important;
+	left:0px!important;
+	box-sizing: border-box;
+	background-color: #fff;
+}
+.yanse {
+    color: #B3AEAE;
+}
+.tcl-longin-user input ,.tcl-login-pass input{
+	float: left;
+	width: 290px;
+	margin-left: 47px;
+	font-family:"微软雅黑";
+	border: medium none;
+	height:48px;
+	line-height: 48px;
+	font-size: 26px;
+	outline: none;
+	box-sizing: border-box;
+}
+.tcl-login-pass {
+   
+    height: 50px;
+    background-image: url(../images/pass-bg.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    border: 1px solid #B3AEAE;
+    position:absolute!important;
+    top: 77px!important;
+    left:0px!important;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+
+.tcl-login-lo input {
+   width: 100%;
+   height: 50px;
+   border: none;
+   background-color: #f00;
+   color: #fff;
+   font-size: 18px;
+   cursor: pointer;
+   font-family: "微软雅黑";
+   outline:none;
+}
+.tcl-login-lo input:hover {
+	background-color:#FB4610;
+}
+.tcl-login-keep {
+    
+    font-family:"微软雅黑";
+    margin-top: 160px;
+	margin-bottom: 20px;
+}
+.tcl-login-forget {
+    margin-left: 30px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #22a4ff;
+    font-size: 14px;
+}
+.tcl-login-lo-regist {
+    text-decoration: none;
+    color: #22a4ff;
+    font-size: 14px;
+	margin-left:30px;
+}
+.tcl-wangzhan {
+	font-size: 16px;
+}
