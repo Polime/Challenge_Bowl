@@ -46,7 +46,7 @@
       <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="thumb-sm avatar pull-left"> <img src="images/avatar.jpg"> </span> 名字 <b class="caret"></b> </a>
         <ul class="dropdown-menu animated fadeInRight">
           <span class="arrow top"></span>
-          <li> <a href="#">设置</a> < /li>
+          <li> <a href="#">设置</a>
           <li> <a href="#"> 通知 </a> </li>
           <li> <a href="docs.html">帮助</a> </li>
           <li class="divider"></li>
