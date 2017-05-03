@@ -63,16 +63,16 @@
             <div class="slim-scroll" data-height="auto" data-disable-fade-out="true" data-distance="0" data-size="5px" data-color="#333333">
               <nav class="nav-primary hidden-xs">
                 <ul class="nav">
-                  <li > <a href="#" > <i class="fa fa-dashboard icon"> <b class="bg-danger"></b> </i> <span>健康管理</span> </a> </li>
-                  <li class="active"> <a href="#" > <i class="fa fa-columns icon"> <b class="bg-warning"></b> </i> <span class="pull-right"> </span> <span>医生建议</span> </a></li>
+                  <li > <a href="home.php" > <i class="fa fa-dashboard icon"> <b class="bg-danger"></b> </i> <span>健康管理</span> </a> </li>
+                  <li class="active"> <a href="doc_advice.php" > <i class="fa fa-columns icon"> <b class="bg-warning"></b> </i> <span class="pull-right"> </span> <span>医生建议</span> </a></li>
                   <li > <a href="#" > <i class="fa fa-flask icon"> <b class="bg-success"></b> </i> <span class="pull-right"> <i class="fa fa-angle-down text"></i> <i class="fa fa-angle-up text-active"></i> </span> <span>社区活动</span> </a>
                     <ul class="nav lt">
-                      <li > <a href="#" > <i class="fa fa-angle-right"></i> <span>社区公告</span> </a> </li>
-                      <li > <a href="#" ><i class="fa fa-angle-right"></i> <span>老人娱乐</span> </a> </li>
+                      <li > <a href="comm_notice.php" > <i class="fa fa-angle-right"></i> <span>社区公告</span> </a> </li>
+                      <li > <a href="relax.php" ><i class="fa fa-angle-right"></i> <span>老人娱乐</span> </a> </li>
                     </ul>
                   </li>
-                  <li > <a href="#" >  <i class="fa fa-envelope-o icon"> <b class="bg-primary dker"></b> </i> <span>医生视屏</span> </a> </li>
-                  <li > <a href="#" > <i class="fa fa-pencil icon"> <b class="bg-info"></b> </i> <span>应急报警</span> </a> </li>
+                  <li > <a href="video.php" >  <i class="fa fa-envelope-o icon"> <b class="bg-primary dker"></b> </i> <span>医生视屏</span> </a> </li>
+                  <li > <a href="information.php" > <i class="fa fa-pencil icon"> <b class="bg-info"></b> </i> <span>应急报警</span> </a> </li>
                 </ul>
               </nav>
              </div>
@@ -110,45 +110,29 @@
         <section class="vbox">
           <section class="scrollable">
             <div class="wrapper b-b b-light"> <a href="#" data-toggle="class" class="pull-left m-r-sm"><i class="fa fa-star-o fa-1x text"></i><i class="fa fa-star text-warning fa-1x text-active"></i></a> <a href="#email-content, #email-list" data-toggle="class:show,hide" class="pull-right text"> <i class="fa fa-trash-o"></i> </a>
-              <h4 class="m-n"> Kickoff meeting</h4>
+              <h4 class="m-n"> 收藏</h4>
             </div>
             <div class="text-sm padder m-t">
-              <div class="block clearfix m-b"> <a href="#" class="thumb-xs inline"><img src="images/avatar.jpg" class="img-circle"></a> <span class="inline m-t-xs">Mika Sokeil &lt;mica_sokeil@gmail.com&gt; to me</span>
-                <div class="pull-right inline">May 12 (<em>4 days ago</em>)
+              <div class="block clearfix m-b"> <a href="#" class="thumb-xs inline"><img src="images/avatar.jpg" class="img-circle"></a> <span class="inline m-t-xs">杨医生 &lt;jian635446559@gmail.com&gt; 发送给我</span>
+                <div class="pull-right inline">2017-05-05 (<em>今天</em>)
                   <div class="btn-group">
                     <button class="btn btn-default btn-xs" data-toggle="tooltip" data-title="Reply"><i class="fa fa-reply"></i></button>
                     <button class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
                     <ul class="dropdown-menu pull-right">
-                      <li><a href="#"><i class="fa fa-reply"></i> Reply</a></li>
-                      <li><a href="#"><i class="fa fa-signout"></i> Forward</a></li>
-                      <li><a href="#">Add Mika Sokeil to contact list</a></li>
-                      <li><a href="#">Mark as unread</a></li>
+                      <li><a href="#"><i class="fa fa-reply"></i> 转发</a></li>
                       <li class="divider"></li>
-                      <li><a href="#">Delete this message</a></li>
-                      <li><a href="#">Report spam</a></li>
+                      <li><a href="#">删除</a></li>
                     </ul>
                   </div>
                 </div>
               </div>
               <div class="line pull-in"></div>
-              <p>Mr. Soe</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id neque quam. Aliquam sollicitudin venenatis ipsum ac feugiat. Vestibulum ullamcorper sodales nisi nec condimentum. Mauris convallis mauris at pellentesque volutpat. Phasellus at ultricies neque, quis malesuada augue. Donec eleifend condimentum nisl eu consectetur. Integer eleifend, nisl venenatis consequat iaculis, lectus arcu malesuada sem, dapibus porta quam lacus eu neque.</p>
-              <blockquote> <em>Morbi nec nunc condimentum, egestas dui nec, fermentum diam. Vivamus vel tincidunt libero, vitae elementum ligula. Nunc placerat purus quam, ac adipiscing arcu rutrum eu. Vestibulum adipiscing ut augue ut auctor. Vestibulum nec lorem imperdiet nibh mollis gravida ut a justo.<br>
-                <br>
-                Vestibulum ullamcorper sodales nisi nec condimentum. Mauris convallis mauris at pellentesque volutpat. Phasellus at ultricies neque, quis malesuada augue. Donec eleifend condimentum nisl eu consectetur. Integer eleifend, nisl venenatis consequat iaculis</em> </blockquote>
-              <div class="show">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id neque quam. Aliquam sollicitudin venenatis ipsum ac feugiat. Vestibulum ullamcorper sodales nisi nec condimentum. Mauris convallis mauris at pellentesque volutpat. Phasellus at ultricies neque, quis malesuada augue. Donec eleifend condimentum nisl eu consectetur. Integer eleifend, nisl venenatis consequat iaculis, lectus arcu malesuada sem, dapibus porta quam lacus eu neque.</p>
-                <p>Duis non malesuada est, quis congue nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id neque quam. Aliquam sollicitudin venenatis ipsum ac feugiat. Vestibulum ullamcorper sodales nisi nec condimentum. Mauris convallis mauris at pellentesque volutpat. Phasellus at ultricies neque, quis malesuada augue. Donec eleifend condimentum nisl eu consectetur. Integer eleifend, nisl venenatis consequat iaculis, lectus arcu malesuada sem, dapibus porta quam lacus eu neque.</p>
-                <p>Duis non malesuada est, quis congue nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id neque quam. Aliquam sollicitudin venenatis ipsum ac feugiat. Vestibulum ullamcorper sodales nisi nec condimentum. Mauris convallis mauris at pellentesque volutpat. Phasellus at ultricies neque, quis malesuada augue. Donec eleifend</p>
-              </div>
-              <p>Best Regards<br>
-                Mical</p>
+              <p>李奶奶</p>
+              <p>每天多喝点白开水!!!</p>
             </div>
             <div class="padder">
               <div class="panel text-sm bg-light">
-                <div class="panel-body"> Click here to <a href="#">Reply</a> or <a href="#">Forward</a> </div>
+                <div class="panel-body"> 点击这里 <a href="#">回复</a> </div>
               </div>
             </div>
           </section>

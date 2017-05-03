@@ -64,15 +64,15 @@
               <nav class="nav-primary hidden-xs">
                 <ul class="nav">
                   <li > <a href="home.php" > <i class="fa fa-dashboard icon"> <b class="bg-danger"></b> </i> <span>健康管理</span> </a> </li>
-                  <li > <a href="#" > <i class="fa fa-columns icon"> <b class="bg-warning"></b> </i> <span class="pull-right"> </span> <span>医生建议</span> </a></li>
+                  <li > <a href="doc_advice.php" > <i class="fa fa-columns icon"> <b class="bg-warning"></b> </i> <span class="pull-right"> </span> <span>医生建议</span> </a></li>
                   <li class="active"> <a href="#" > <i class="fa fa-flask icon"> <b class="bg-success"></b> </i> <span class="pull-right"> <i class="fa fa-angle-down text"></i> <i class="fa fa-angle-up text-active"></i> </span> <span>社区活动</span> </a>
                     <ul class="nav lt">
-                      <li > <a href="#" > <i class="fa fa-angle-right"></i> <span>社区公告</span> </a> </li>
-                      <li > <a href="#" ><i class="fa fa-angle-right"></i> <span>老人娱乐</span> </a> </li>
+                      <li > <a href="comm_notice.php" > <i class="fa fa-angle-right"></i> <span>社区公告</span> </a> </li>
+                      <li > <a href="relax.php" ><i class="fa fa-angle-right"></i> <span>老人娱乐</span> </a> </li>
                     </ul>
                   </li>
-                  <li > <a href="#" >  <i class="fa fa-envelope-o icon"> <b class="bg-primary dker"></b> </i> <span>医生视屏</span> </a> </li>
-                  <li > <a href="#" > <i class="fa fa-pencil icon"> <b class="bg-info"></b> </i> <span>应急报警</span> </a> </li>
+                  <li > <a href="video.php" >  <i class="fa fa-envelope-o icon"> <b class="bg-primary dker"></b> </i> <span>医生视屏</span> </a> </li>
+                  <li > <a href="information.php" > <i class="fa fa-pencil icon"> <b class="bg-info"></b> </i> <span>应急报警</span> </a> </li>
                 </ul>
               </nav>
              </div>
@@ -109,103 +109,46 @@
             <section id="content">
               <section class="vbox">
                 <header class="header bg-white b-b b-light">
-                  <p>Widgets <small>(colorful)</small></p>
+                  <p>老人娱乐 <small>(线上及线下)</small></p>
                 </header>
                 <section class="scrollable wrapper">
                   <div class="row">
-                    <div class="col-lg-8" style="margin-left: 200px;">
-                      <div class="row">
-                        <div class="col-sm-6" style="margin-left: -25px;">
-                          <section class="panel panel-info">
-                            <div class="panel-body"> <a href="#" class="thumb pull-right m-l"> <img src="images/avatar.jpg" class="img-circle"> </a>
-                              <div class="clear"> <a href="#" class="text-info">@Mike Mcalidek <i class="icon-twitter"></i></a> <small class="block text-muted">2,415 个关注者 / 225 米外</small> <a href="#" class="btn btn-xs btn-success m-t-xs">关注</a> </div>
-                            </div>
-                            <div class="panel-body"> <a href="#" class="thumb pull-right m-l"> <img src="images/avatar.jpg" class="img-circle"> </a>
-                              <div class="clear"> <a href="#" class="text-info">@Mike Mcalidek <i class="icon-twitter"></i></a> <small class="block text-muted">2,415 个关注者 / 225 米外</small> <a href="#" class="btn btn-xs btn-success m-t-xs">关注</a> </div>
-                            </div>
-                            <div class="panel-body"> <a href="#" class="thumb pull-right m-l"> <img src="images/avatar.jpg" class="img-circle"> </a>
-                              <div class="clear"> <a href="#" class="text-info">@Mike Mcalidek <i class="icon-twitter"></i></a> <small class="block text-muted">2,415 个关注者 / 225 米外</small> <a href="#" class="btn btn-xs btn-success m-t-xs">关注</a> </div>
-                            </div>
-                          </section>
-                        </div>
-                        <div class="col-sm-6" style="position: relative;left: 50px;">
-                          <section class="panel panel-default">
-                            <header class="panel-heading bg-danger lt no-border">
-                              <div class="clearfix"> <a href="#" class="pull-left thumb avatar b-3x m-r"> <img src="images/avatar.jpg" class="img-circle"> </a>
-                                <div class="clear">
-                                  <div class="h3 m-t-xs m-b-xs text-white"> John.Smith <i class="fa fa-circle text-white pull-right text-xs m-t-sm"></i> </div>
-                                  <small class="text-muted">Art director</small> </div>
-                              </div>
-                            </header>
-                            <div class="list-group no-radius alt"> <a class="list-group-item" href="#"> <span class="badge bg-success">25</span> <i class="fa fa-comment icon-muted"></i> Messages </a> <a class="list-group-item" href="#"> <span class="badge bg-info">16</span> <i class="fa fa-envelope icon-muted"></i> Inbox </a> <a class="list-group-item" href="#"> <span class="badge bg-light">5</span> <i class="fa fa-eye icon-muted"></i> Profile visits </a> </div>
-                          </section>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
                     <div class="col-lg-6"> <!-- chat -->
-                      <section class="panel panel-default">
-                        <header class="panel-heading">Chat</header>
-                        <section class="chat-list panel-body">
-                          <article id="chat-id-1" class="chat-item left"> <a href="#" class="pull-left thumb-sm avatar"><img src="images/avatar.jpg" class="img-circle"></a>
-                            <section class="chat-body">
-                              <div class="panel b-light text-sm m-b-none">
-                                <div class="panel-body"> <span class="arrow left"></span>
-                                  <p class="m-b-none">Hi John, What's up...</p>
-                                </div>
-                              </div>
-                              <small class="text-muted"><i class="fa fa-ok text-success"></i> 2 minutes ago</small> </section>
-                          </article>
-                          <article id="chat-id-1" class="chat-item right"> <a href="#" class="pull-right thumb-sm avatar"><img src="images/avatar_default.jpg" class="img-circle"></a>
-                            <section class="chat-body">
-                              <div class="panel bg bg-success text-sm m-b-none">
-                                <div class="panel-body"> <span class="arrow right"></span>
-                                  <p class="m-b-none">Lorem ipsum dolor sit amet, conse <br>
-                                    adipiscing eli...<br>
-                                    :)</p>
-                                </div>
-                              </div>
-                              <small class="text-muted">1 minutes ago</small> </section>
-                          </article>
-                        </section>
-                        <footer class="panel-footer"> <!-- chat form -->
-                          <article class="chat-item" id="chat-form"> <a class="pull-left thumb-sm avatar"><img src="images/avatar.jpg" class="img-circle"></a>
-                            <section class="chat-body">
-                              <form action="" class="m-b-none">
-                                <div class="input-group">
-                                  <input type="text" class="form-control" placeholder="Say something">
-                                  <span class="input-group-btn">
-                                  <button class="btn btn-default" type="button">SEND</button>
-                                  </span> </div>
-                              </form>
-                            </section>
-                          </article>
-                        </footer>
-                      </section>
+
                       <!-- /chat -->
                       <section class="panel panel-default">
-                        <header class="panel-heading"> <span class="label bg-dark">15</span> Inbox </header>
-                        <section class="panel-body slim-scroll" data-height="230px">
+                        <header class="panel-heading"> <span class="label bg-dark">15</span> 活动(未进行) </header>
+                        <section class="panel-body slim-1scro1ll" data-height="230px">
                           <article class="media"> <span class="pull-left thumb-sm"><img src="images/avatar_default.jpg" class="img-circle"></span>
                             <div class="media-body">
-                              <div class="pull-right media-xs text-center text-muted"> <strong class="h4">12:18</strong><br>
-                                <small class="label bg-light">pm</small> </div>
-                              <a href="#" class="h4">Bootstrap 3 released</a> <small class="block"><a href="#" class="">John Smith</a> <span class="label label-success">Circle</span></small> <small class="block m-t-sm">Sleek, intuitive, and powerful mobile-first front-end framework for faster and easier web development.</small> </div>
+                              <div class="pull-right media-xs text-center text-muted"> <strong class="h4">12:30</strong><br>
+                                <small class="label bg-light">1天后</small> </div>
+                              <a href="#" class="h4">结伴爬山</a> <small class="block"><a href="#" class="">李奶奶</a> <span class="label label-success">发起者</span></small> <small class="block m-t-sm">大家快来加入,一起去爬山.</small> </div>
                           </article>
                           <div class="line pull-in"></div>
                           <article class="media"> <span class="pull-left thumb-sm"><i class="fa fa-file-o fa-3x icon-muted"></i></span>
                             <div class="media-body">
-                              <div class="pull-right media-xs text-center text-muted"> <strong class="h4">17</strong><br>
-                                <small class="label bg-light">feb</small> </div>
-                              <a href="#" class="h4">Bootstrap documents</a> <small class="block"><a href="#" class="">John Smith</a> <span class="label label-info">Friends</span></small> <small class="block m-t-sm">There are a few easy ways to quickly get started with Bootstrap, each one appealing to a different skill level and use case. Read through to see what suits your particular needs.</small> </div>
+                              <div class="pull-right media-xs text-center text-muted"> <strong class="h4">20:34</strong><br>
+                                <small class="label bg-light">今天</small> </div>
+                              <a href="#" class="h4">下象棋</a> <small class="block"><a href="#" class="">刘大爷</a> <span class="label label-info">发起者</span></small> <small class="block m-t-sm">闲着没意思,找个人陪我下象棋.</small> </div>
+                          </article>
+                        </section>
+                      </section>
+                      <section class="panel panel-default">
+                        <header class="panel-heading"> <span class="label bg-dark">15</span> 活动(已过期) </header>
+                        <section class="panel-body slim-1scro1ll" data-height="230px">
+                          <article class="media"> <span class="pull-left thumb-sm"><img src="images/avatar_default.jpg" class="img-circle"></span>
+                            <div class="media-body">
+                              <div class="pull-right media-xs text-center text-muted"> <strong class="h4">12:30</strong><br>
+                                <small class="label bg-light">1天前</small> </div>
+                              <a href="#" class="h4">结伴爬山</a> <small class="block"><a href="#" class="">李奶奶</a> <span class="label label-success">发起者</span></small> <small class="block m-t-sm">大家快来加入,一起去爬山.</small> </div>
                           </article>
                           <div class="line pull-in"></div>
-                          <article class="media">
+                          <article class="media"> <span class="pull-left thumb-sm"><i class="fa fa-file-o fa-3x icon-muted"></i></span>
                             <div class="media-body">
-                              <div class="pull-right media-xs text-center text-muted"> <strong class="h4">09</strong><br>
-                                <small class="label bg-light">jan</small> </div>
-                              <a href="#" class="h4 text-success">Mobile first html/css framework</a> <small class="block m-t-sm">Bootstrap, Ratchet</small> </div>
+                              <div class="pull-right media-xs text-center text-muted"> <strong class="h4">20:34</strong><br>
+                                <small class="label bg-light">3天前</small> </div>
+                              <a href="#" class="h4">下象棋</a> <small class="block"><a href="#" class="">刘大爷</a> <span class="label label-info">发起者</span></small> <small class="block m-t-sm">闲着没意思,找个人陪我下象棋.</small> </div>
                           </article>
                         </section>
                       </section>
@@ -214,57 +157,31 @@
                       <section class="comment-list block">
                         <article id="comment-id-1" class="comment-item"> <a class="pull-left thumb-sm avatar"> <img src="images/avatar.jpg" class="img-circle"> </a> <span class="arrow left"></span>
                           <section class="comment-body panel panel-default">
-                            <header class="panel-heading bg-white"> <a href="#">John smith</a>
-                              <label class="label bg-info m-l-xs">Editor</label>
-                              <span class="text-muted m-l-sm pull-right"> <i class="fa fa-clock-o"></i> Just now </span> </header>
+                            <header class="panel-heading bg-white"> <a href="#">王奶奶</a>
+                              <label class="label bg-info m-l-xs">留言者</label>
+                              <span class="text-muted m-l-sm pull-right"> <i class="fa fa-clock-o"></i> 5分钟前 </span> </header>
                             <div class="panel-body">
-                              <div>Lorem ipsum dolor sit amet, consecteter adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</div>
-                              <div class="comment-action m-t-sm"> <a href="#" data-toggle="class" class="btn btn-default btn-xs active"> <i class="fa fa-star-o text-muted text"></i> <i class="fa fa-star text-danger text-active"></i> Like </a> <a href="#comment-form" class="btn btn-default btn-xs"> <i class="fa fa-mail-reply text-muted"></i> Reply </a> </div>
+                              <div>今天玩得真开心.</div>
+                              <div class="comment-action m-t-sm"> <a href="#comment-form" class="btn btn-default btn-xs"> <i class="fa fa-mail-reply text-muted"></i> 评论 </a> </div>
                             </div>
                           </section>
                         </article>
                         <!-- .comment-reply -->
                         <article id="comment-id-2" class="comment-item comment-reply"> <a class="pull-left thumb-sm avatar"> <img src="images/avatar.jpg" class="img-circle"> </a> <span class="arrow left"></span>
                           <section class="comment-body panel panel-default text-sm">
-                            <div class="panel-body"> <span class="text-muted m-l-sm pull-right"> <i class="fa fa-clock-o"></i> 10m ago </span> <a href="#">Mika Sam</a>
-                              <label class="label bg-dark m-l-xs">Admin</label>
-                              Report this comment is helpful </div>
+                            <div class="panel-body"> <span class="text-muted m-l-sm pull-right"> <i class="fa fa-clock-o"></i> 刚刚 </span> <a href="#">孙大爷</a>
+                              <label class="label bg-dark m-l-xs">回复者</label>
+                              我也是. </div>
                           </section>
                         </article>
                         <!-- / .comment-reply -->
-                        <article id="comment-id-3" class="comment-item"> <a class="pull-left thumb-sm avatar"><img src="images/avatar.jpg" class="img-circle"></a> <span class="arrow left"></span>
-                          <section class="comment-body panel panel-default">
-                            <header class="panel-heading"> <a href="#">By me</a>
-                              <label class="label bg-success m-l-xs">User</label>
-                              <span class="text-muted m-l-sm pull-right"> <i class="fa fa-clock-o"></i> 1h ago </span> </header>
-                            <div class="panel-body">
-                              <div>This comment was posted by you.</div>
-                              <div class="comment-action m-t-sm"> <a href="#comment-id-3" data-dismiss="alert" class="btn btn-default btn-xs"> <i class="fa fa-trash-o text-muted"></i> Remove </a> </div>
-                            </div>
-                          </section>
-                        </article>
-                        <article id="comment-id-4" class="comment-item"> <a class="pull-left thumb-sm avatar"><img src="images/avatar.jpg" class="img-circle"></a> <span class="arrow left"></span>
-                          <section class="comment-body panel panel-default">
-                            <header class="panel-heading"> <a href="#">Peter</a>
-                              <label class="label bg-primary m-l-xs">Vip</label>
-                              <span class="text-muted m-l-sm pull-right"> <i class="fa fa-clock-o"></i> 2hs ago </span> </header>
-                            <div class="panel-body">
-                              <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                                <small>Someone famous in <cite title="Source Title">Source Title</cite></small> </blockquote>
-                              <div>Lorem ipsum dolor sit amet, consecteter adipiscing elit...</div>
-                              <div class="comment-action m-t-sm"> <a href="#" data-toggle="class" class="btn btn-default btn-xs"> <i class="fa fa-star-o text-muted text"></i> <i class="fa fa-star text-danger text-active"></i> Like </a> <a href="#comment-form" class="btn btn-default btn-xs"><i class="fa fa-mail-reply text-muted"></i> Reply</a> </div>
-                            </div>
-                          </section>
-                        </article>
-                        <!-- comment form -->
                         <article class="comment-item media" id="comment-form"> <a class="pull-left thumb-sm avatar"><img src="images/avatar.jpg" class="img-circle"></a>
                           <section class="media-body">
                             <form action="" class="m-b-none">
                               <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Input your comment here">
+                                <input type="text" class="form-control" placeholder="在这里输入你的留言">
                                 <span class="input-group-btn">
-                                <button class="btn btn-primary" type="button">POST</button>
+                                <button class="btn btn-primary" type="button">留言</button>
                                 </span> </div>
                             </form>
                           </section>

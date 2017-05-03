@@ -65,13 +65,21 @@
                 <ul class="nav">
                   <li > <a href="home.php" > <i class="fa fa-dashboard icon"> <b class="bg-danger"></b> </i> <span>健康管理</span> </a> </li>
                   <li class="active"> <a href="doc_advice.php" > <i class="fa fa-columns icon"> <b class="bg-warning"></b> </i> <span class="pull-right"> </span> <span>医生建议</span> </a></li>
+<<<<<<< HEAD
                   <li > <a href="comm_notice.php" > <i class="fa fa-flask icon"> <b class="bg-success"></b> </i> <span class="pull-right"> <i class="fa fa-angle-down text"></i> <i class="fa fa-angle-up text-active"></i> </span> <span>社区活动</span> </a>
+=======
+                  <li > <a href="#" > <i class="fa fa-flask icon"> <b class="bg-success"></b> </i> <span class="pull-right"> <i class="fa fa-angle-down text"></i> <i class="fa fa-angle-up text-active"></i> </span> <span>社区活动</span> </a>
+>>>>>>> a9b13932eebe282cc7390126256676418ac7fa83
                     <ul class="nav lt">
                       <li > <a href="comm_notice.php" > <i class="fa fa-angle-right"></i> <span>社区公告</span> </a> </li>
                       <li > <a href="relax.php" ><i class="fa fa-angle-right"></i> <span>老人娱乐</span> </a> </li>
                     </ul>
                   </li>
+<<<<<<< HEAD
                   <li > <a href="video.php" >  <i class="fa fa-envelope-o icon"> <b class="bg-primary dker"></b> </i> <span>医生视屏</span> </a> </li>
+=======
+                  <li > <a href="#" >  <i class="fa fa-envelope-o icon"> <b class="bg-primary dker"></b> </i> <span>医生视屏</span> </a> </li>
+>>>>>>> a9b13932eebe282cc7390126256676418ac7fa83
                   <li > <a href="information.php" > <i class="fa fa-pencil icon"> <b class="bg-info"></b> </i> <span>应急报警</span> </a> </li>
                 </ul>
               </nav>
@@ -110,7 +118,7 @@
         <section class="vbox">
           <section class="scrollable hover">
             <ul class="list-group no-radius m-b-none m-t-n-xxs list-group-alt list-group-lg">
-              <li class="list-group-item"> <a href="#" class="thumb-xs pull-left m-r-sm"> <img src="images/avatar_default.jpg" class="img-circle"> </a> <a  href="doc_advice_all.php" class="clear"> <small class="pull-right text-muted">Jan 2</small> <strong>Jonthan Snow</strong> <span class="label label-sm bg-success text-uc">clients</span> <span>Morbi nec nunc condimentum...</span> </a> </li>
+              <li class="list-group-item"> <a href="#" class="thumb-xs pull-left m-r-sm"> <img src="images/avatar_default.jpg" class="img-circle"> </a> <a  href="doc_advice_all.php" class="clear"> <small class="pull-right text-muted">2017-05-05</small> <strong>杨医生</strong> <span class="label label-sm bg-success text-uc">饮食</span> <span>多喝白开水...</span> </a> </li>
             </ul>
           </section>
         </section>
