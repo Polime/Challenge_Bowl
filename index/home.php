@@ -63,16 +63,16 @@
             <div class="slim-scroll" data-height="auto" data-disable-fade-out="true" data-distance="0" data-size="5px" data-color="#333333">
               <nav class="nav-primary hidden-xs">
                 <ul class="nav">
-                  <li class="active"> <a href="#" > <i class="fa fa-dashboard icon"> <b class="bg-danger"></b> </i> <span>健康管理</span> </a> </li>
-                  <li > <a href="#" > <i class="fa fa-columns icon"> <b class="bg-warning"></b> </i> <span class="pull-right"> <i class="fa fa-angle-up text-active"></i> </span> <span>医生建议</span> </a></li>
-                  <li > <a href="#" > <i class="fa fa-flask icon"> <b class="bg-success"></b> </i> <span class="pull-right"> <i class="fa fa-angle-down text"></i> <i class="fa fa-angle-up text-active"></i> </span> <span>社区活动</span> </a>
+                  <li class="active"> <a href="home.php" > <i class="fa fa-dashboard icon"> <b class="bg-danger"></b> </i> <span>健康管理</span> </a> </li>
+                  <li > <a href="doc_advice.php" > <i class="fa fa-columns icon"> <b class="bg-warning"></b> </i> <span class="pull-right"> <i class="fa fa-angle-up text-active"></i> </span> <span>医生建议</span> </a></li>
+                  <li > <a href="comm_notice.php" > <i class="fa fa-flask icon"> <b class="bg-success"></b> </i> <span class="pull-right"> <i class="fa fa-angle-down text"></i> <i class="fa fa-angle-up text-active"></i> </span> <span>社区活动</span> </a>
                     <ul class="nav lt">
-                      <li > <a href="#" > <i class="fa fa-angle-right"></i> <span>社区公告</span> </a> </li>
-                      <li > <a href="#" ><i class="fa fa-angle-right"></i> <span>老人娱乐</span> </a> </li>
+                      <li > <a href="comm_notice.php" > <i class="fa fa-angle-right"></i> <span>社区公告</span> </a> </li>
+                      <li > <a href="relax.php" ><i class="fa fa-angle-right"></i> <span>老人娱乐</span> </a> </li>
                     </ul>
                   </li>
-                  <li > <a href="#" >  <i class="fa fa-envelope-o icon"> <b class="bg-primary dker"></b> </i> <span>医生视屏</span> </a> </li>
-                  <li > <a href="#" > <i class="fa fa-pencil icon"> <b class="bg-info"></b> </i> <span>应急报警</span> </a> </li>
+                  <li > <a href="video.php" >  <i class="fa fa-envelope-o icon"> <b class="bg-primary dker"></b> </i> <span>医生视屏</span> </a> </li>
+                  <li > <a href="information.php" > <i class="fa fa-pencil icon"> <b class="bg-info"></b> </i> <span>应急报警</span> </a> </li>
                 </ul>
               </nav>
              </div>
@@ -115,19 +115,19 @@
             </ul>
             <div class="m-b-md">
               <h3 class="m-b-none">健康管理</h3>
-              <small>欢迎来到</small> </div>
+              <small>欢迎回来，XXX</small> </div>
             <section class="panel panel-default">
               <div class="row m-l-none m-r-none bg-light lter">
                 <div class="col-sm-6 col-md-3 padder-v b-r b-light"> <span class="fa-stack fa-2x pull-left m-r-sm"> <i class="fa fa-circle fa-stack-2x text-info"></i> <i class="fa fa-male fa-stack-1x text-white"></i> </span> <a class="clear" href="#"> <span class="h3 block m-t-xs"><strong>25,00</strong></span> <small class="text-muted text-uc">今日步数</small> </a> </div>
                 <div class="col-sm-6 col-md-3 padder-v b-r b-light lt"> <span class="fa-stack fa-2x pull-left m-r-sm"> <i class="fa fa-circle fa-stack-2x text-warning"></i> <i class="fa fa-bug fa-stack-1x text-white"></i> <span class="easypiechart pos-abt" data-percent="90" data-line-width="4" data-track-Color="#fff" data-scale-Color="false" data-size="50" data-line-cap='butt' data-animate="2000" data-target="#bugs" data-update="0"></span> </span> <a class="clear" href="#"> <span class="h3 block m-t-xs"><strong id="bugs">0</strong></span> <small class="text-muted text-uc">心率评分</small> </a> </div>
                 <div class="col-sm-6 col-md-3 padder-v b-r b-light"> <span class="fa-stack fa-2x pull-left m-r-sm"> <i class="fa fa-circle fa-stack-2x text-danger"></i> <i class="fa fa-fire-extinguisher fa-stack-1x text-white"></i> <span class="easypiechart pos-abt" data-percent="80" data-line-width="4" data-track-Color="#f5f5f5" data-scale-Color="false" data-size="50" data-line-cap='butt' data-animate="3000" data-target="#firers" data-update="0"></span> </span> <a class="clear" href="#"> <span class="h3 block m-t-xs"><strong id="firers">0</strong></span> <small class="text-muted text-uc">健康评分</small> </a> </div>
-                <div class="col-sm-6 col-md-3 padder-v b-r b-light lt"> <span class="fa-stack fa-2x pull-left m-r-sm"> <i class="fa fa-circle fa-stack-2x icon-muted"></i> <i class="fa fa-clock-o fa-stack-1x text-white"></i> </span> <a class="clear" href="#"> <span class="h3 block m-t-xs"><strong>8</strong></span> <small class="text-muted text-uc">睡眠时间</small> </a> </div>
+                <div class="col-sm-6 col-md-3 padder-v b-r b-light lt"> <span class="fa-stack fa-2x pull-left m-r-sm"> <i class="fa fa-circle fa-stack-2x icon-muted"></i> <i class="fa fa-clock-o fa-stack-1x text-white"></i> </span> <a class="clear" href="#"> <span class="h3 block m-t-xs"><strong>8.5</strong></span> <small class="text-muted text-uc">睡眠时间</small> </a> </div>
               </div>
             </section>
             <div class="row">
               <div class="col-md-8">
                 <section class="panel panel-default">
-                  <header class="panel-heading font-bold">心率记录<span class="pull-right">Friday</span></header>
+                  <header class="panel-heading font-bold">心率记录<span class="pull-right">星期五</span></header>
                   <div class="bg-light dk wrapper"> 
                     <div class="text-center m-b-n m-t-sm">
                       <div class="sparkline" data-type="line" data-height="185" data-width="100%" data-line-width="2" data-line-color="#dddddd" data-spot-color="#bbbbbb" data-fill-color="" data-highlight-line-color="#fff" data-spot-radius="3" data-resize="true" values="100,90,80,100,80,99,88,71,91,89,101,96,81,77"></div>
@@ -145,7 +145,7 @@
               </div>
               <div class="col-md-4">
                 <section class="panel panel-default">
-                  <header class="panel-heading font-bold">环境<span class="pull-right">Friday</span></header>
+                  <header class="panel-heading font-bold">环境<span class="pull-right">星期五</span></header>
                   <div class="bg-light dk wrapper"> 
                     <div class="text-center m-b-n m-t-sm">
                       <div class="sparkline" data-type="line" data-height="65" data-width="100%" data-line-width="2" data-line-color="#dddddd" data-spot-color="#bbbbbb" data-fill-color="" data-highlight-line-color="#fff" data-spot-radius="3" data-resize="true" values="32,34.5,25,25,25,30,38"></div>
@@ -193,33 +193,6 @@
                 </section>
               </div>
             </div>
-            <div>
-              <div class="btn-group m-b" data-toggle="buttons">
-                <label class="btn btn-sm btn-default active">
-                  <input type="radio" name="options" id="option1">
-                  医生建议</label>
-              </div>
-              <section class="comment-list block">
-                <article id="comment-id-1" class="comment-item"> <span class="fa-stack pull-left m-l-xs"> <i class="fa fa-circle text-info fa-stack-2x"></i> <i class="fa fa-play-circle text-white fa-stack-1x"></i> </span>
-                  <section class="comment-body m-b-lg">
-                    <header> <a href="#"><strong>John smith</strong></a> shared a <a href="#" class="text-info">video</a> to you <span class="text-muted text-xs"> 24 minutes ago </span> </header>
-                    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id neque quam.</div>
-                  </section>
-                </article>
-                <article id="comment-id-2" class="comment-item"> <span class="fa-stack pull-left m-l-xs"> <i class="fa fa-circle text-danger fa-stack-2x"></i> <i class="fa fa-file-o text-white fa-stack-1x"></i> </span>
-                  <section class="comment-body m-b-lg">
-                    <header> <a href="#"><strong>John Doe</strong></a> <span class="text-muted text-xs"> 1 hour ago </span> </header>
-                    <div>Lorem ipsum dolor sit amet, consecteter adipiscing elit.</div>
-                  </section>
-                </article>
-                <article id="comment-id-2" class="comment-item"> <span class="fa-stack pull-left m-l-xs"> <i class="fa fa-circle text-success fa-stack-2x"></i> <i class="fa fa-check text-white fa-stack-1x"></i> </span>
-                  <section class="comment-body m-b-lg">
-                    <header> <a href="#"><strong>Jonathan</strong></a> completed a task <span class="text-muted text-xs"> 1 hour ago </span> </header>
-                    <div>Consecteter adipiscing elit.</div>
-                  </section>
-                </article>
-              </section>
-             </div>
           </section>
         </section>
         <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen" data-target="#nav"></a> </section>
