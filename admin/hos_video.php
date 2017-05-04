@@ -64,16 +64,9 @@
             <div class="slim-scroll" data-height="auto" data-disable-fade-out="true" data-distance="0" data-size="5px" data-color="#333333">
               <nav class="nav-primary hidden-xs">
                 <ul class="nav">
-                  <li > <a href="home.php" > <i class="fa fa-dashboard icon"> <b class="bg-danger"></b> </i> <span>健康管理</span> </a> </li>
-                  <li > <a href="doc_advice.php" > <i class="fa fa-columns icon"> <b class="bg-warning"></b> </i> <span class="pull-right"> </span> <span>医生建议</span> </a></li>
-                  <li > <a href="comm_notice.php" > <i class="fa fa-flask icon"> <b class="bg-success"></b> </i> <span class="pull-right"> <i class="fa fa-angle-down text"></i> <i class="fa fa-angle-up text-active"></i> </span> <span>社区活动</span> </a>
-                    <ul class="nav lt">
-                      <li > <a href="comm_notice.php" > <i class="fa fa-angle-right"></i> <span>社区公告</span> </a> </li>
-                      <li > <a href="relax.php" ><i class="fa fa-angle-right"></i> <span>老人娱乐</span> </a> </li>
-                    </ul>
-                  </li>
-                  <li class="active"> <a href="video.php" >  <i class="fa fa-envelope-o icon"> <b class="bg-primary dker"></b> </i> <span>医生视屏</span> </a> </li>
-                  <li > <a href="information.php" > <i class="fa fa-pencil icon"> <b class="bg-info"></b> </i> <span>应急报警</span> </a> </li>
+                  <li > <a href="home.php" > <i class="fa fa-dashboard icon"> <b class="bg-danger"></b> </i> <span>数据分析</span> </a> </li>
+                  <li class="active"> <a href="hos_video.php" >  <i class="fa fa-envelope-o icon"> <b class="bg-primary dker"></b> </i> <span>老人视频</span> </a> </li>
+                  <li > <a href="hos_info.php" > <i class="fa fa-pencil icon"> <b class="bg-info"></b> </i> <span>应急报警</span> </a> </li>
                 </ul>
               </nav>
              </div>
@@ -107,11 +100,6 @@
         </section>
       </aside>
       <section id="content">
-        <section class="scrollable padder">
-          <ul class="breadcrumb no-border no-radius b-b b-light pull-in">
-            <li><a href="index.html"><i class="fa fa-home"></i> 主页</a></li>
-            <li class="active">医生视频</li>
-          </ul>
         <div style="margin-left: 20px;margin-top: 10px">
           <a href="" class="btn btn-xs btn-success m-t-xs" style="width: 100px;height: 40px;font-size: 20px;">加入视频
         </a>

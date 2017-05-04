@@ -14,27 +14,6 @@
 <section class="vbox">
   <header class="bg-dark dk header navbar navbar-fixed-top-xs">
     <div class="navbar-header aside-md"> <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen" data-target="#nav"> <i class="fa fa-bars"></i> </a> <a href="#" class="navbar-brand" data-toggle="fullscreen"><img src="images/logo.png" class="m-r-sm">Familyhealth</a> <a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".nav-user"> <i class="fa fa-cog"></i> </a> </div>
-    <ul class="nav navbar-nav hidden-xs">
-      <li class="dropdown"> <a href="#" class="dropdown-toggle dker" data-toggle="dropdown"> <i class="fa fa-building-o"></i> <span class="font-bold">本周</span> </a>
-        <section class="dropdown-menu aside-xl on animated fadeInLeft no-borders lt">
-          <div class="wrapper lter m-t-n-xs"> <a href="#" class="thumb pull-left m-r"> <img src="images/avatar.jpg" class="img-circle"> </a>
-            <div class="clear"> <a href="#"><span class="text-white font-bold">名字</a></span> <small class="block">住址</small> <a href="#" class="btn btn-xs btn-success m-t-xs">本周评分</a> </div>
-          </div>
-          <div class="row m-l-none m-r-none m-b-n-xs text-center">
-            <div class="col-xs-4">
-              <div class="padder-v"> <span class="m-b-xs h4 block text-white">245</span> <small class="text-muted">平均步数</small> </div>
-            </div>
-            <div class="col-xs-4 dk">
-              <div class="padder-v"> <span class="m-b-xs h4 block text-white">55</span> <small class="text-muted">睡眠时间</small> </div>
-            </div>
-            <div class="col-xs-4">
-              <div class="padder-v"> <span class="m-b-xs h4 block text-white">2,035</span> <small class="text-muted">健康分数</small> </div>
-            </div>
-          </div>
-        </section>
-      </li>
-
-    </ul>
     <ul class="nav navbar-nav navbar-right hidden-xs nav-user">
       <li class="hidden-xs"> <a href="#" class="dropdown-toggle dk" data-toggle="dropdown"> <i class="fa fa-bell"></i> </a>
         <section class="dropdown-menu aside-xl">
@@ -63,16 +42,9 @@
             <div class="slim-scroll" data-height="auto" data-disable-fade-out="true" data-distance="0" data-size="5px" data-color="#333333">
               <nav class="nav-primary hidden-xs">
                 <ul class="nav">
-                  <li > <a href="home.php" > <i class="fa fa-dashboard icon"> <b class="bg-danger"></b> </i> <span>健康管理</span> </a> </li>
-                  <li > <a href="doc_advice.php" > <i class="fa fa-columns icon"> <b class="bg-warning"></b> </i> <span class="pull-right"> </span> <span>医生建议</span> </a></li>
-                  <li > <a href="#" > <i class="fa fa-flask icon"> <b class="bg-success"></b> </i> <span class="pull-right"> <i class="fa fa-angle-down text"></i> <i class="fa fa-angle-up text-active"></i> </span> <span>社区活动</span> </a>
-                    <ul class="nav lt">
-                      <li > <a href="comm_notice.php" > <i class="fa fa-angle-right"></i> <span>社区公告</span> </a> </li>
-                      <li > <a href="relax.php" ><i class="fa fa-angle-right"></i> <span>老人娱乐</span> </a> </li>
-                    </ul>
-                  </li>
-                  <li > <a href="video.php" >  <i class="fa fa-envelope-o icon"> <b class="bg-primary dker"></b> </i> <span>医生视屏</span> </a> </li>
-                  <li class="active"> <a href="information.php" > <i class="fa fa-pencil icon"> <b class="bg-info"></b> </i> <span>应急报警</span> </a> </li>
+                  <li > <a href="hos_home.php" > <i class="fa fa-dashboard icon"> <b class="bg-danger"></b> </i> <span>数据分析</span> </a> </li>
+                  <li > <a href="hos_video.php" >  <i class="fa fa-envelope-o icon"> <b class="bg-primary dker"></b> </i> <span>老人视频</span> </a> </li>
+                  <li class="active"> <a href="hos_info.php" > <i class="fa fa-pencil icon"> <b class="bg-info"></b> </i> <span>应急报警</span> </a> </li>
                 </ul>
               </nav>
              </div>
@@ -107,13 +79,7 @@
       </aside>
 
             <section id="content">
-
         <section class="vbox">
-          <section class="scrollable padder">
-            <ul class="breadcrumb no-border no-radius b-b b-light pull-in">
-              <li><a href="index.html"><i class="fa fa-home"></i> 主页</a></li>
-              <li class="active">应急报警</li>
-            </ul>
           <section class="scrollable hover">
             <ul class="list-group no-radius m-b-none m-t-n-xxs list-group-alt list-group-lg">
               <p style="font-size: 50px;text-align: center;margin-top: 200px;">老人状态:

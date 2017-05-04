@@ -108,6 +108,11 @@
 
             <section id="content">
         <section class="vbox">
+          <section class="scrollable padder">
+            <ul class="breadcrumb no-border no-radius b-b b-light pull-in">
+              <li><a href="index.html"><i class="fa fa-home"></i> 主页</a></li>
+              <li class="active">医生建议</li>
+            </ul>
           <section class="scrollable hover">
             <ul class="list-group no-radius m-b-none m-t-n-xxs list-group-alt list-group-lg">
               <li class="list-group-item"> <a href="#" class="thumb-xs pull-left m-r-sm"> <img src="images/avatar_default.jpg" class="img-circle"> </a> <a  href="doc_advice_all.php" class="clear"> <small class="pull-right text-muted">2017-05-05</small> <strong>杨医生</strong> <span class="label label-sm bg-success text-uc">饮食</span> <span>多喝白开水...</span> </a> </li>
