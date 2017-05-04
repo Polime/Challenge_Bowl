@@ -14,7 +14,7 @@
 <section class="vbox">
   <header class="bg-dark dk header navbar navbar-fixed-top-xs">
     <div class="navbar-header aside-md"> <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen" data-target="#nav"> <i class="fa fa-bars"></i> </a> <a href="#" class="navbar-brand" data-toggle="fullscreen"><img src="images/logo.png" class="m-r-sm">Familyheath</a> <a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".nav-user"> <i class="fa fa-cog"></i> </a> </div>
- 
+
     <ul class="nav navbar-nav navbar-right hidden-xs nav-user">
       <li class="hidden-xs"> <a href="#" class="dropdown-toggle dk" data-toggle="dropdown"> <i class="fa fa-bell"></i> </a>
         <section class="dropdown-menu aside-xl">
@@ -43,12 +43,16 @@
             <div class="slim-scroll" data-height="auto" data-disable-fade-out="true" data-distance="0" data-size="5px" data-color="#333333">
               <nav class="nav-primary hidden-xs">
                 <ul class="nav">
+<<<<<<< HEAD
                   <li > <a href="#layout" > <i class="fa fa-columns icon"> <b class="bg-warning"></b> </i> <span class="pull-right"> <i class="fa fa-angle-down text"></i> <i class="fa fa-angle-up text-active"></i> </span> <span>数据分析</span> </a>
+=======
+                  <li class="active"> <a href="man_home.php" > <i class="fa fa-columns icon"> <b class="bg-warning"></b> </i> <span class="pull-right"> <i class="fa fa-angle-down text"></i> <i class="fa fa-angle-up text-active"></i> </span> <span>数据分析</span> </a>
+>>>>>>> 0f99bf0a8a2f4d1e5f969c96e18fe57816b3502f
                     <ul class="nav lt">
-                      <li > <a href="old_info.php" > <i class="fa fa-angle-right"></i> <span>老人档案</span> </a> </li>
+                      <li > <a href="layout-c.html" > <i class="fa fa-angle-right"></i> <span>老人档案</span> </a> </li>
                       <li > <a href="old_health.php" ><i class="fa fa-angle-right"></i> <span>老人健康</span> </a> </li>
-                       <li > <a href="equipment.php" ><i class="fa fa-angle-right"></i> <span>设备管理</span> </a> </li>
-                        <li > <a href="location.php" ><i class="fa fa-angle-right"></i> <span>人员管理</span> </a> </li>
+                      <li > <a href="equipment.php" ><i class="fa fa-angle-right"></i> <span>设备管理</span> </a> </li>
+                      <li > <a href="location.php" ><i class="fa fa-angle-right"></i> <span>人员管理</span> </a> </li>
                     </ul>
                   </li>
                   <li > <a href="man_info.php" > <i class="fa fa-pencil icon"> <b class="bg-info"></b> </i> <span>应急报警</span> </a> </li>
@@ -86,10 +90,10 @@
               <div class="col-sm-6 portlet">
                 <section class="panel panel-info portlet-item">
                   <header class="panel-heading"> 老人档案 </header>
-                  <div class="list-group bg-white"> 
+                  <div class="list-group bg-white">
                    <a href="#" class="list-group-item"> 新增老人 </a>
-                   <a href="#" class="list-group-item"> 老人信息 </a> 
-                   <a href="#" class="list-group-item"> 家属信息 </a> 
+                   <a href="#" class="list-group-item"> 老人信息 </a>
+                   <a href="#" class="list-group-item"> 家属信息 </a>
                  </div>
                 </section>
               </div>
@@ -171,11 +175,11 @@
               <div class="col-sm-6 portlet">
                 <section class="panel panel-info portlet-item">
                   <header class="panel-heading"> 人员管理 </header>
-                  <div class="list-group bg-white"> 
+                  <div class="list-group bg-white">
                    <a href="#" class="list-group-item"> 医生信息 </a>
-                   <a href="#" class="list-group-item"> 社区人员管理</a> 
-                   <a href="#" class="list-group-item"> 就诊信息 </a> 
-                   <a href="#" class="list-group-item"> 人员评价 </a> 
+                   <a href="#" class="list-group-item"> 社区人员管理</a>
+                   <a href="#" class="list-group-item"> 就诊信息 </a>
+                   <a href="#" class="list-group-item"> 人员评价 </a>
                  </div>
                 </section>
               </div>
@@ -183,7 +187,11 @@
           </section>
         </section>
         <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen" data-target="#nav"></a> </section>
+<<<<<<< HEAD
       
+=======
+
+>>>>>>> 0f99bf0a8a2f4d1e5f969c96e18fe57816b3502f
 
       <aside class="bg-light lter b-l aside-md hide" id="notes">
         <div class="wrapper">Familyhealth</div>
