@@ -64,7 +64,7 @@
             <div class="slim-scroll" data-height="auto" data-disable-fade-out="true" data-distance="0" data-size="5px" data-color="#333333">
               <nav class="nav-primary hidden-xs">
                 <ul class="nav">
-                  <li > <a href="home.php" > <i class="fa fa-dashboard icon"> <b class="bg-danger"></b> </i> <span>数据分析</span> </a> </li>
+                  <li > <a href="hos_home.php" > <i class="fa fa-dashboard icon"> <b class="bg-danger"></b> </i> <span>数据分析</span> </a> </li>
                   <li class="active"> <a href="hos_video.php" >  <i class="fa fa-envelope-o icon"> <b class="bg-primary dker"></b> </i> <span>老人视频</span> </a> </li>
                   <li > <a href="hos_info.php" > <i class="fa fa-pencil icon"> <b class="bg-info"></b> </i> <span>应急报警</span> </a> </li>
                 </ul>

@@ -44,7 +44,7 @@
             <div class="slim-scroll" data-height="auto" data-disable-fade-out="true" data-distance="0" data-size="5px" data-color="#333333">
               <nav class="nav-primary hidden-xs">
                 <ul class="nav">
-                  <li class="active"> <a href="hos_home.php" > <i class="fa fa-dashboard icon"> <b class="bg-danger"></b> </i> <span>数据分析</span> </a> 
+                  <li class="active"> <a href="man_home.php" > <i class="fa fa-dashboard icon"> <b class="bg-danger"></b> </i> <span>数据分析</span> </a> 
                     <ul class="nav lt">
                       <li > <a href="old_info.php" > <i class="fa fa-angle-right"></i> <span>老人档案</span> </a> </li>
                       <li > <a href="old_health.php" ><i class="fa fa-angle-right"></i> <span>老人健康</span> </a> </li>
@@ -52,8 +52,8 @@
                         <li > <a href="location.php" ><i class="fa fa-angle-right"></i> <span>人员管理</span> </a> </li>
                     </ul>
                   </li>
-                  <li > <a href="hos_video.php" >  <i class="fa fa-envelope-o icon"> <b class="bg-primary dker"></b> </i> <span>老人视频</span> </a> </li>
-                  <li > <a href="hos_info.php" > <i class="fa fa-pencil icon"> <b class="bg-info"></b> </i> <span>应急报警</span> </a> </li>
+                  <li > <a href="man_video.php" >  <i class="fa fa-envelope-o icon"> <b class="bg-primary dker"></b> </i> <span>老人视频</span> </a> </li>
+                  <li > <a href="man_info.php" > <i class="fa fa-pencil icon"> <b class="bg-info"></b> </i> <span>应急报警</span> </a> </li>
                 </ul>
               </nav>
              </div>
