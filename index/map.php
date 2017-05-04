@@ -10,26 +10,24 @@
 	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=UjvvmwT3r5Q00ZvQ2RkkEc5udlOmsaxC"></script>
 	<title>老人位置</title>
 </head>
-<body>
+<body onload="theLocation()">
 	<div id="allmap"></div>
-	<div id="r-result">
-		经度: <input id="longitude" type="text" style="width:100px; margin-right:10px;" value="126.575746"/>
-		纬度: <input id="latitude" type="text" style="width:100px; margin-right:10px;" value="43.931087"/>
-		<input type="button" value="查询老人位置" onclick="theLocation()" />
-	</div>
+	
 </body>
 </html>
 <script type="text/javascript">
 	// 百度地图API功能
+	var longitude = 126.575746;
+	var latitude = 43.931087;
 	var map = new BMap.Map("allmap");
-	map.centerAndZoom(new BMap.Point(116.331398,39.897445),11);
+	map.centerAndZoom(new BMap.Point(longitude,latitude),11);
 	map.enableScrollWheelZoom(true);
 
 	// 用经纬度设置地图中心点
 	function theLocation(){
-		if(document.getElementById("longitude").value != "" && document.getElementById("latitude").value != ""){
+		if(longitude != "" && latitude != ""){
 			map.clearOverlays();
-			var new_point = new BMap.Point(document.getElementById("longitude").value,document.getElementById("latitude").value);
+			var new_point = new BMap.Point(longitude,latitude);
 			var marker = new BMap.Marker(new_point);  // 创建标注
 			map.addOverlay(marker);              // 将标注添加到地图中
 			map.panTo(new_point);

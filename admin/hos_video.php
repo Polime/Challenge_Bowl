@@ -64,16 +64,9 @@
             <div class="slim-scroll" data-height="auto" data-disable-fade-out="true" data-distance="0" data-size="5px" data-color="#333333">
               <nav class="nav-primary hidden-xs">
                 <ul class="nav">
-                  <li > <a href="home.php" > <i class="fa fa-dashboard icon"> <b class="bg-danger"></b> </i> <span>健康管理</span> </a> </li>
-                  <li > <a href="doc_advice.php" > <i class="fa fa-columns icon"> <b class="bg-warning"></b> </i> <span class="pull-right"> </span> <span>医生建议</span> </a></li>
-                  <li > <a href="comm_notice.php" > <i class="fa fa-flask icon"> <b class="bg-success"></b> </i> <span class="pull-right"> <i class="fa fa-angle-down text"></i> <i class="fa fa-angle-up text-active"></i> </span> <span>社区活动</span> </a>
-                    <ul class="nav lt">
-                      <li > <a href="comm_notice.php" > <i class="fa fa-angle-right"></i> <span>社区公告</span> </a> </li>
-                      <li > <a href="relax.php" ><i class="fa fa-angle-right"></i> <span>老人娱乐</span> </a> </li>
-                    </ul>
-                  </li>
-                  <li class="active"> <a href="video.php" >  <i class="fa fa-envelope-o icon"> <b class="bg-primary dker"></b> </i> <span>医生视屏</span> </a> </li>
-                  <li > <a href="information.php" > <i class="fa fa-pencil icon"> <b class="bg-info"></b> </i> <span>应急报警</span> </a> </li>
+                  <li > <a href="home.php" > <i class="fa fa-dashboard icon"> <b class="bg-danger"></b> </i> <span>数据分析</span> </a> </li>
+                  <li class="active"> <a href="hos_video.php" >  <i class="fa fa-envelope-o icon"> <b class="bg-primary dker"></b> </i> <span>老人视频</span> </a> </li>
+                  <li > <a href="hos_info.php" > <i class="fa fa-pencil icon"> <b class="bg-info"></b> </i> <span>应急报警</span> </a> </li>
                 </ul>
               </nav>
              </div>
@@ -107,29 +100,13 @@
         </section>
       </aside>
       <section id="content">
-        <h1 style="margin-left: 330px;">与医生视频</h1>
-        <table style="margin-left: 320px;margin-top: 30px;font-size: 15px;text-align: center;">
-          <tr style="height: 40px;">
-            <td style="width: 70px;">医生</td>
-            <td style="width: 70px;">状态</td>
-            <td style="width: 70px;">操作</td>
-          </tr>
-          <tr style="height: 40px;">
-            <td style="width: 70px;">张医生</td>
-            <td style="width: 70px;">等待视频</td>
-            <td style="width: 70px;"><a href="" class="btn btn-xs btn-success m-t-xs">加入视频</a></td>
-          </tr>
-          <tr style="height: 40px;">
-            <td style="width: 70px;">黑医生</td>
-            <td style="width: 70px;color: red">视频中</td>
-            <td style="width: 70px;"><a href="" class="btn btn-xs btn-success m-t-xs">加入视频</a></td>
-          </tr>
-          <tr style="height: 40px;">
-            <td style="width: 70px;">白医生</td>
-            <td style="width: 70px;color: red">视频中</td>
-            <td style="width: 70px;"><a href="" class="btn btn-xs btn-success m-t-xs">加入视频</a></td>
-          </tr>
-        </table>
+        <div style="margin-left: 20px;margin-top: 10px">
+          <a href="" class="btn btn-xs btn-success m-t-xs" style="width: 100px;height: 40px;font-size: 20px;">加入视频
+        </a>
+        </div>
+        <div style="width: 600px;height: 400px;border: 1px solid black;margin-left: 150px;margin-top: 20px;">
+
+        </div>
       </section>
       <aside class="bg-light lter b-l aside-md hide" id="notes">
         <div class="wrapper">Familyhealth</div>
