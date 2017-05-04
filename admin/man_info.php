@@ -118,14 +118,14 @@
               <div class="">
                 <table style="font-size: 20px;text-align: center;" >
                   <tr>
-                    <td width=80px>状态</td>
-                    <td width=80px>姓名</td>
-                    <td width=80px>年龄</td>
-                    <td width=80px>性别</td>
-                    <td width=400px>病史</td>
-                    <td width=100px>位置</td>
+                    <td width=100px>状态</td>
+                    <td width=100px>姓名</td>
+                    <td width=100px>年龄</td>
+                    <td width=100px>性别</td>
+                    <td width=1000px>病史</td>
+                    <td width=200px>位置</td>
                   </tr>
-                  <tr>
+                  <tr style="background-color: #FFF;border: 1px solid #DDD;">
                     <td><span style="color: red;">危险</span></td>
                     <td>李如花</td>
                     <td>99</td>
