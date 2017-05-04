@@ -25,7 +25,7 @@
 
 	// 用经纬度设置地图中心点
 	function theLocation(){
-		if(document.getElementById("longitude").value != "" && document.getElementById("latitude").value != ""){
+		if(longitude != "" && latitude != ""){
 			map.clearOverlays();
 			var new_point = new BMap.Point(longitude,latitude);
 			var marker = new BMap.Marker(new_point);  // 创建标注
