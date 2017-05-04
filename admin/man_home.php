@@ -43,11 +43,7 @@
             <div class="slim-scroll" data-height="auto" data-disable-fade-out="true" data-distance="0" data-size="5px" data-color="#333333">
               <nav class="nav-primary hidden-xs">
                 <ul class="nav">
-<<<<<<< HEAD
-                  <li > <a href="#layout" > <i class="fa fa-columns icon"> <b class="bg-warning"></b> </i> <span class="pull-right"> <i class="fa fa-angle-down text"></i> <i class="fa fa-angle-up text-active"></i> </span> <span>数据分析</span> </a>
-=======
                   <li class="active"> <a href="man_home.php" > <i class="fa fa-columns icon"> <b class="bg-warning"></b> </i> <span class="pull-right"> <i class="fa fa-angle-down text"></i> <i class="fa fa-angle-up text-active"></i> </span> <span>数据分析</span> </a>
->>>>>>> 0f99bf0a8a2f4d1e5f969c96e18fe57816b3502f
                     <ul class="nav lt">
                       <li > <a href="layout-c.html" > <i class="fa fa-angle-right"></i> <span>老人档案</span> </a> </li>
                       <li > <a href="old_health.php" ><i class="fa fa-angle-right"></i> <span>老人健康</span> </a> </li>
@@ -187,11 +183,6 @@
           </section>
         </section>
         <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen" data-target="#nav"></a> </section>
-<<<<<<< HEAD
-      
-=======
-
->>>>>>> 0f99bf0a8a2f4d1e5f969c96e18fe57816b3502f
 
       <aside class="bg-light lter b-l aside-md hide" id="notes">
         <div class="wrapper">Familyhealth</div>

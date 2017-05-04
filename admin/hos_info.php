@@ -2,7 +2,7 @@
 <html lang="en" class="app">
 <head>
 <meta charset="utf-8" />
-<title>Notebook | Web Application</title>
+<title>Famolyhealth</title>
 <meta name="description" content="app, web app, responsive, admin dashboard, admin, flat, flat ui, ui kit, off screen nav" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <link rel="stylesheet" href="css/app.v2.css" type="text/css" />
@@ -13,7 +13,28 @@
 <body>
 <section class="vbox">
   <header class="bg-dark dk header navbar navbar-fixed-top-xs">
-    <div class="navbar-header aside-md"> <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen" data-target="#nav"> <i class="fa fa-bars"></i> </a> <a href="#" class="navbar-brand" data-toggle="fullscreen"><img src="images/logo.png" class="m-r-sm">Familyhealth</a> <a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".nav-user"> <i class="fa fa-cog"></i> </a> </div>
+    <div class="navbar-header aside-md"> <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen" data-target="#nav"> <i class="fa fa-bars"></i> </a> <a href="#" class="navbar-brand" data-toggle="fullscreen"><img src="images/logo.png" class="m-r-sm">Familyheath</a> <a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".nav-user"> <i class="fa fa-cog"></i> </a> </div>
+    <ul class="nav navbar-nav hidden-xs">
+      <li class="dropdown"> <a href="#" class="dropdown-toggle dker" data-toggle="dropdown"> <i class="fa fa-building-o"></i> <span class="font-bold">本周</span> </a>
+        <section class="dropdown-menu aside-xl on animated fadeInLeft no-borders lt">
+          <div class="wrapper lter m-t-n-xs"> <a href="#" class="thumb pull-left m-r"> <img src="images/avatar.jpg" class="img-circle"> </a>
+            <div class="clear"> <a href="#"><span class="text-white font-bold">名字</a></span> <small class="block">住址</small> <a href="#" class="btn btn-xs btn-success m-t-xs">本周评分:90</a> </div>
+          </div>
+          <div class="row m-l-none m-r-none m-b-n-xs text-center">
+            <div class="col-xs-4">
+              <div class="padder-v"> <span class="m-b-xs h4 block text-white">2,035</span> <small class="text-muted">平均步数</small> </div>
+            </div>
+            <div class="col-xs-4 dk">
+              <div class="padder-v"> <span class="m-b-xs h4 block text-white">10</span> <small class="text-muted">睡眠时间</small> </div>
+            </div>
+            <div class="col-xs-4">
+              <div class="padder-v"> <span class="m-b-xs h4 block text-white">85</span> <small class="text-muted">健康分数</small> </div>
+            </div>
+          </div>
+        </section>
+      </li>
+
+    </ul>
     <ul class="nav navbar-nav navbar-right hidden-xs nav-user">
       <li class="hidden-xs"> <a href="#" class="dropdown-toggle dk" data-toggle="dropdown"> <i class="fa fa-bell"></i> </a>
         <section class="dropdown-menu aside-xl">
@@ -25,7 +46,7 @@
       <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="thumb-sm avatar pull-left"> <img src="images/avatar.jpg"> </span> 名字 <b class="caret"></b> </a>
         <ul class="dropdown-menu animated fadeInRight">
           <span class="arrow top"></span>
-          <li> <a href="#">设置</a> </li>
+          <li> <a href="#">设置</a>
           <li> <a href="#"> 通知 </a> </li>
           <li> <a href="docs.html">帮助</a> </li>
           <li class="divider"></li>
@@ -42,8 +63,8 @@
             <div class="slim-scroll" data-height="auto" data-disable-fade-out="true" data-distance="0" data-size="5px" data-color="#333333">
               <nav class="nav-primary hidden-xs">
                 <ul class="nav">
-                  <li > <a href="hos_home.php" > <i class="fa fa-dashboard icon"> <b class="bg-danger"></b> </i> <span>数据分析</span> </a> </li>
-                  <li > <a href="hos_video.php" >  <i class="fa fa-envelope-o icon"> <b class="bg-primary dker"></b> </i> <span>老人视频</span> </a> </li>
+                  <li > <a href="hos_home.php" > <i class="fa fa-columns icon"> <b class="bg-warning"></b> </i> <span class="pull-right"> <i class="fa fa-angle-down text"></i> <i class="fa fa-angle-up text-active"></i> </span> <span>数据分析</span> </a></li>
+                   <li > <a href="hos_video.php" >  <i class="fa fa-envelope-o icon"> <b class="bg-primary dker"></b> </i> <span>老人视频</span> </a> </li>
                   <li class="active"> <a href="hos_info.php" > <i class="fa fa-pencil icon"> <b class="bg-info"></b> </i> <span>应急报警</span> </a> </li>
                 </ul>
               </nav>
@@ -80,24 +101,48 @@
 
             <section id="content">
         <section class="vbox">
-          <section class="scrollable hover">
-            <ul class="list-group no-radius m-b-none m-t-n-xxs list-group-alt list-group-lg">
-              <p style="font-size: 50px;text-align: center;margin-top: 200px;">老人状态:
-                <span style="color: green;font-size: 150px;">安全</span><br />
-                <input type="button" name="" value="查看老人位置" onclick="map()" style="line-height: 100px;" />
+          <section class="scrollable padder">
+            <ul class="breadcrumb no-border no-radius b-b b-light pull-in">
+              <li><a href="index.html"><i class="fa fa-home"></i> 主页</a></li>
+              <li class="active">应急报警</li>
+            </ul>
+            <div class="m-b-md">
+              <p style="font-size: 20px;">老人状态:100(全部)/99
+                <span style="color: green;">(安全)/</span>
+                <span style="color: red;">1(危险)</span><br />
               </p>
               <script type="text/javascript">
                 function map(){
                   location="map.php";
                 }
               </script>
-            </ul>
+              <div class="">
+                <table style="font-size: 20px;text-align: center;" >
+                  <tr>
+                    <td width=100px>状态</td>
+                    <td width=100px>姓名</td>
+                    <td width=100px>年龄</td>
+                    <td width=100px>性别</td>
+                    <td width=1000px>病史</td>
+                    <td width=200px>位置</td>
+                  </tr>
+                  <tr style="background-color: #FFF;border: 1px solid #DDD;">
+                    <td><span style="color: red;">危险</span></td>
+                    <td>李如花</td>
+                    <td>99</td>
+                    <td>女</td>
+                    <td>高血糖,心脏病</td>
+                    <td><input type="button" name="" value="查看位置" onclick="map()" style="background-color: red;border: none;color: #FFF;border-radius: 3px;font-size: 20px;" /></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
           </section>
         </section>
         <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen" data-target="#nav"></a> </section>
 
       <aside class="bg-light lter b-l aside-md hide" id="notes">
-        <div class="wrapper">Notification</div>
+        <div class="wrapper">Familyhealth</div>
       </aside>
     </section>
   </section>
