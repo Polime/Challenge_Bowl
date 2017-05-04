@@ -89,9 +89,9 @@
                   <header class="panel-heading"> 老人档案 </header>
                   <div class="list-group bg-white"> 
                    <a href="#" class="list-group-item"> 新增老人 </a>
-                   <a href="#" class="list-group-item"> 老人档案 </a> 
-                   <a href="#" class="list-group-item"> 审核中档案 </a> 
-                   <a href="#" class="list-group-item"> 未审核档案 </a> 
+                   <a href="#" class="list-group-item"> 老人信息 </a> 
+                   <a href="#" class="list-group-item"> 家属信息 </a> 
+                   <a href="#" class="list-group-item"> 病例信息 </a> 
                  </div>
                 </section>
               </div>
