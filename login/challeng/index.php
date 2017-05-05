@@ -32,7 +32,6 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <!-- 菜单 -->
             <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false" style="">
                 <ul class="nav navbar-nav navbar-right" >
                     <li><a href="index.php">首页</a></li>
@@ -46,8 +45,6 @@
         </div>
     </div>
 </header>
-<!-- 头部结束 -->
-<!-- banner开始 -->
 <div class="home" style="background-color:#20acab;">
     <div class="container">
         <div class="row center-content">
@@ -64,10 +61,10 @@
             <div class="col-md-6">
                 <div class="row">
                     <div class="col-md-4">
-                        <a href="#" target="login.php" class="loginbtn green">登录</a>
+                        <a href="login.php" target="_blank" class="loginbtn green">登录</a>
                     </div>
                     <div class="col-md-4">
-                        <a href="#" target="registeruser.php" class="loginbtn yellow">免费注册</a>
+                        <a href="registeruser.php" target="_blank" class="loginbtn yellow">免费注册</a>
                     </div>
                 </div>
             </div>
