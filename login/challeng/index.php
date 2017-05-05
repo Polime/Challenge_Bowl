@@ -35,11 +35,11 @@
             <!-- 菜单 -->
             <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false" style="">
                 <ul class="nav navbar-nav navbar-right" >
-                    <li><a href="index.html">首页</a></li>
-                    <li><a href="product-m.html">介绍</a></li>
-                    <li><a href="consociation-m.html"></a></li>
-                    <li><a href="aboutus-m.html">关于我们</a></li>
-					<li><a href="http://mall.shecuntong.cn" target="_blank">养老养生</a></li>
+                    <li><a href="index.php">首页</a></li>
+                    <li><a href="#">介绍</a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#">关于我们</a></li>
+					<li><a href="#" target="_blank">养老养生</a></li>
                     <li><div class="navbar-header pull-right telnum" id="telnum">服务热线</div></li>
                 </ul>
             </div>
@@ -64,10 +64,10 @@
             <div class="col-md-6">
                 <div class="row">
                     <div class="col-md-4">
-                        <a href="#" target="_blank" class="loginbtn green">登录</a>
+                        <a href="#" target="login.php" class="loginbtn green">登录</a>
                     </div>
                     <div class="col-md-4">
-                        <a href="#" target="_blank" class="loginbtn yellow">免费注册</a>
+                        <a href="#" target="registeruser.php" class="loginbtn yellow">免费注册</a>
                     </div>
                 </div>
             </div>
