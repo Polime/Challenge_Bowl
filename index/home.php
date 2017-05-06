@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+<?php
+  require "../login/back_end/clearinfo.php"
+ ?>
+<!DOCTYPE html>
 <html lang="en" class="app">
 <head>
 <meta charset="utf-8" />
@@ -43,14 +46,14 @@
           </section>
         </section>
       </li>
-      <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="thumb-sm avatar pull-left"> <img src="images/avatar.jpg"> </span> 名字 <b class="caret"></b> </a>
+      <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="thumb-sm avatar pull-left"> <img src="images/avatar.jpg"> </span> <?php echo $_SESSION['name']; ?> <b class="caret"></b> </a>
         <ul class="dropdown-menu animated fadeInRight">
           <span class="arrow top"></span>
           <li> <a href="#">设置</a>
           <li> <a href="#"> 通知 </a> </li>
           <li> <a href="docs.html">帮助</a> </li>
           <li class="divider"></li>
-          <li> <a href="modal.lockme.html" data-toggle="ajaxModal" >退出</a> </li>
+          <li> <a href="../login/back_end/logout.php" >退出</a> </li>
         </ul>
       </li>
     </ul>
@@ -115,7 +118,7 @@
             </ul>
             <div class="m-b-md">
               <h3 class="m-b-none">健康管理</h3>
-              <small>欢迎回来，XXX</small> </div>
+              <small>欢迎回来，<?php echo $_SESSION['name']; ?></small> </div>
             <section class="panel panel-default">
               <div class="row m-l-none m-r-none bg-light lter">
                 <div class="col-sm-6 col-md-3 padder-v b-r b-light"> <span class="fa-stack fa-2x pull-left m-r-sm"> <i class="fa fa-circle fa-stack-2x text-info"></i> <i class="fa fa-male fa-stack-1x text-white"></i> </span> <a class="clear" href="#"> <span class="h3 block m-t-xs"><strong>25,00</strong></span> <small class="text-muted text-uc">今日步数</small> </a> </div>

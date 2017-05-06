@@ -33,24 +33,26 @@
          <div class="tcl-login" style="background-image: url(../images/login_bg04.png);" >
             <div class="main">
                 <div class="kuang">
-                    <div class="tcl-longin-user">
-                        <input name="userName" type="text" id="txtun" placeholder="账户名" class="yanse">
-  									</div>
-                    <div class="tcl-login-pass">
-                        <input name="userPass" type="password" id="txtpw" placeholder="密码" >
-                    </div>
-                    <div class="tcl-login-pass" style="margin-top: 20px;display:none;">
-                        <input  type="text" id="txtcode" placeholder="验证码" >
-                       <img alt="" style="height: 40px; cursor: pointer;float:left; " border="0" id="SafeCode" width="55" />
-                    </div>
-                    <div class="tcl-login-keep ">
-                        <span class="ck" style="vertical-align: middle;"><input id="userCheckbox" type="checkbox" name="userCheckbox"></span>
-                        <span style="font-size: 14px;">记住密码</span>
-                        <a href="#" class="tcl-login-forget">忘记密码？</a>
-                    </div>
-                     <div class="tcl-login-lo">
-                        <input type="button" name="Button1" value="登    录" id="btnLogin">
-                    </div>
+                    <form class="" action="../back_end/login.php" method="post">
+                      <div class="tcl-longin-user">
+                          <input name="userName" type="text" id="txtun" placeholder="账户名" class="yanse">
+    									</div>
+                      <div class="tcl-login-pass">
+                          <input name="userPass" type="password" id="txtpw" placeholder="密码" >
+                      </div>
+                      <div class="tcl-login-pass" style="margin-top: 20px;display:none;">
+                          <input  type="text" id="txtcode" placeholder="验证码" >
+                         <img alt="" style="height: 40px; cursor: pointer;float:left; " border="0" id="SafeCode" width="55" />
+                      </div>
+                      <div class="tcl-login-keep ">
+                          <span class="ck" style="vertical-align: middle;"><input id="userCheckbox" type="checkbox" name="userCheckbox"></span>
+                          <span style="font-size: 14px;">记住密码</span>
+                          <a href="#" class="tcl-login-forget">忘记密码？</a>
+                      </div>
+                       <div class="tcl-login-lo">
+                          <input type="submit" name="Button1" value="登    录" id="btnLogin">
+                      </div>
+                    </form>
                 </div>
               </div>
           </div>
