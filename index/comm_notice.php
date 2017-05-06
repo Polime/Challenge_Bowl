@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿<?php 
+ ?>
+<!DOCTYPE html>
 <html lang="en" class="app">
 <head>
 <meta charset="utf-8" />
@@ -43,14 +45,14 @@
           </section>
         </section>
       </li>
-      <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="thumb-sm avatar pull-left"> <img src="images/avatar.jpg"> </span> 名字 <b class="caret"></b> </a>
+      <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="thumb-sm avatar pull-left"> <img src="images/avatar.jpg"> </span> <?php echo $_SESSION['name'] ?> <b class="caret"></b> </a>
         <ul class="dropdown-menu animated fadeInRight">
           <span class="arrow top"></span>
           <li> <a href="#">设置</a>
           <li> <a href="#"> 通知 </a> </li>
           <li> <a href="docs.html">帮助</a> </li>
           <li class="divider"></li>
-          <li> <a href="modal.lockme.html" data-toggle="ajaxModal" >退出</a> </li>
+          <li> <a href="../login/back_end/logout.php" >退出</a> </li>
         </ul>
       </li>
     </ul>
@@ -105,77 +107,8 @@
           </footer>
         </section>
       </aside>
-    <section id="content">
-        <section class="hbox stretch">
-            <aside>
-                <section class="vbox">
-                    <header class="header bg-white b-b b-light">
-                        <p>社区公告</p>
-                    </header>
-                    <section class="scrollable wrapper">
-                        <div class="timeline">
-                            <article class="timeline-item active">
-                                <div class="timeline-caption">
-                                    <div class="panel bg-primary lter no-borders">
-                                        <div class="panel-body"> <span class="timeline-icon"><i class="fa fa-bell-o time-icon bg-primary"></i></span>
-                                            <h5> <span>小区公告</span> </h5>
-                                            <div class="m-t-sm timeline-action"> <span class="h3 pull-left m-r-sm">2017</span>
-                                                <button class="btn btn-sm btn-default btn-bg">XX社区</button>
-                                                <button class="btn btn-sm btn-default btn-bg">社区公告</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="timeline-item">
-                                <div class="timeline-caption">
-                                    <div class="panel panel-default">
-                                        <div class="panel-body"> <span class="arrow left"></span> <span class="timeline-icon"><i class="fa fa-phone time-icon bg-primary"></i></span> <span class="timeline-date">5.2</span>
-                                            <h5> <span>全小区</span> 停水</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="timeline-item alt">
-                                <div class="timeline-caption">
-                                    <div class="panel panel-default">
-                                        <div class="panel-body"> <span class="arrow right"></span> <span class="timeline-icon"><i class="fa fa-male time-icon bg-success"></i></span> <span class="timeline-date">3.2</span>
-                                            <h5> <span>全小区</span></h5>
-                                            <p>停水到下午18点 </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="timeline-item">
-                                <div class="timeline-caption">
-                                    <div class="panel panel-default">
-                                        <div class="panel-body"> <span class="arrow left"></span> <span class="timeline-icon"><i class="fa fa-plane time-icon bg-dark"></i></span> <span class="timeline-date">2.8</span>
-                                            <h5> <span>全小区</span></h5>
-                                            <p>希望</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
 
-                            <article class="timeline-item">
-                                <div class="timeline-caption">
-                                    <div class="panel panel-default">
-                                        <div class="panel-body"> <span class="arrow left"></span> <span class="timeline-icon"><i class="fa fa-plane time-icon bg-dark"></i></span> <span class="timeline-date">1.1</span>
-                                            <h5> <span>全体人员</span></h5>
-                                            <p>祝愿大家元旦快乐</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-
-                            <div class="timeline-footer"><a href="#"><i class="fa fa-plus time-icon inline-block bg-dark"></i></a></div>
-                        </div>
-                    </section>
-                </section>
-            </aside>
-        </section>
-        <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen" data-target="#nav"></a>
-    </section>
+      <?php require "./back_end/comm_notice.php"; ?>
 
       <aside class="bg-light lter b-l aside-md hide" id="notes">
         <div class="wrapper">Familyhealth</div>

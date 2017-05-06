@@ -24,11 +24,7 @@
 	}
 	if($verify == $code){
 		if($password == $passagin){
-<<<<<<< HEAD
 			if(strlen($cardid) == 18){
-=======
-			if(strlen($cardid) == 23){
->>>>>>> 32773752f8830deb7b8a59bdce1fb2f493ba4225
 				$sql = "insert into old_info(id,name,sex,password,phone,comm) value('$cardid','$name','$sex','$password','$phone','$address')";
 				$insert = $pdo->exec($sql);
 				if($insert){
@@ -37,7 +33,6 @@
 					echo "<script>alert('注册失败');location='../challeng/registeruser.php';</script>";
 				}
 			}else{
-<<<<<<< HEAD
 				echo "<script>alert('身份证号码错误');location='../challeng/registeruser.php';</script>";
 			}
 		}else{
@@ -45,15 +40,6 @@
 		}
 	}else{
 		echo "<script>alert('验证码错误');location='../challeng/registeruser.php';</script>";
-=======
-				echo "<script>alert('身份证号码错误')</script>";
-			}
-		}else{
-			echo "<script>alert('密码不一致')</script>";
-		}
-	}else{
-		echo "<script>alert('验证码错误')</script>";
->>>>>>> 32773752f8830deb7b8a59bdce1fb2f493ba4225
 	}
 
 ?>
