@@ -1,10 +1,7 @@
-<<<<<<< HEAD
+
 <?php
   require "../login/back_end/clearinfo.php"
  ?>
-=======
-﻿
->>>>>>> 2ee65e01e9163ee8a22aa7b84b5188d4c8e10c32
 <!DOCTYPE html>
 <html lang="en" class="app">
 <head>
@@ -50,12 +47,7 @@
           </section>
         </section>
       </li>
-<<<<<<< HEAD
       <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="thumb-sm avatar pull-left"> <img src="images/avatar.jpg"> </span> <?php echo $_SESSION['name']; ?> <b class="caret"></b> </a>
-=======
-      <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="thumb-sm avatar pull-left"> <img src="images/avatar.jpg"> </span> <?php echo 
-      $_SESSION['name']; ?> <b class="caret"></b> </a>
->>>>>>> 2ee65e01e9163ee8a22aa7b84b5188d4c8e10c32
         <ul class="dropdown-menu animated fadeInRight">
           <span class="arrow top"></span>
           <li> <a href="#">设置</a> </li>

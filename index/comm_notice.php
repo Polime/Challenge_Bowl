@@ -1,10 +1,7 @@
-<<<<<<< HEAD
+
 <?php
   require "../login/back_end/clearinfo.php"
-=======
-﻿<?php
->>>>>>> 2ee65e01e9163ee8a22aa7b84b5188d4c8e10c32
- ?>
+?>
 <!DOCTYPE html>
 <html lang="en" class="app">
 <head>
