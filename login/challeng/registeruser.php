@@ -45,7 +45,7 @@
         <h2>欢迎注册社区智能养老综合服务平台</h2>
         <div class="validate_msg_a" style="text-align:center;" id="show_panel"> <strong></strong>
         </div>
-        <form action="" method="post" id="">
+        <form action="../back_end/register.php" method="post" id="">
             <input type="hidden" id="" name="" value="">
             <table border="0" cellspacing="0" cellpadding="0" class="klh_0112reg_taba">
                 <tbody>
@@ -64,8 +64,42 @@
                     <tr>
                         <td align="right">短信验证码：</td>
                         <td>
+                            <script src="jquery-3.2.1.js"></script>
+                            <script type="text/javascript">
+                                $(document).ready(function(){
+                                  $("input#btnSendCode").click(function(){
+                                    var num,code,i,n;
+                                    code = '';
+                                    num = $("input#h_UserTelno").val();
+                                    var verify = {};
+                                    verify[0] = "0";
+                                    verify[1] = "1";
+                                    verify[2] = "2";
+                                    verify[3] = "3";
+                                    verify[4] = "4";
+                                    verify[5] = "5";
+                                    verify[6] = "6";
+                                    verify[7] = "7";
+                                    verify[9] = "9";
+                                    verify[8] = "8";
+                                    for(i=0;i<4;i++){
+                                        n = Math.floor(Math.random()*10);
+                                        code += verify[n];
+                                    }
+                                    // alert(code);
+                                    $("input#a_SmsCode").val(code);
+                                    $.ajax({
+                                    type:'get',
+                                    url:'../back_end/SendSms.php?phone='+num+'&code='+code,
+                                    async:true,
+                                        });
+                                    });
+                                });
+                            </script>
                             <input type="button" id="btnSendCode" class="yzm_a1" value="获取短信验证码" />
-                            <input name="h_SmsCode" id="h_SmsCode" type="text" class="gminp_a1 yzm" style="width:210px;" placeholder="请输入短信验证码" value=""></td>
+                            <input name="h_SmsCode" id="h_SmsCode" type="text" class="gminp_a1 yzm" style="width:210px;" placeholder="请输入短信验证码" value="">
+                            <input name="a_SmsCode" id="a_SmsCode" type="hidden" value="">
+                            </td>
                         <td>
                             <label style="color:red;margin-right:5px;">*</label>
                             <span></span>
@@ -100,10 +134,20 @@
                             <span></span>
                         </td>
                     </tr>
-					                    <tr>
+					<tr>
                         <td align="right">身份证：</td>
                         <td>
-                            <input name="" id="" type="text" class="gminp_a1 imgYzm" placeholder="请输入验证码" value="">
+                            <input name="h_Cardid" id="" type="text" class="gminp_a1 imgYzm" placeholder="请输入身份证" value="">
+                        </td>
+                        <td>
+                            <label style="color:red;margin-right:5px;">*</label>
+                            <span></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">地址：</td>
+                        <td>
+                            <input name="h_Address" id="" type="text" class="gminp_a1 imgYzm" placeholder="请输入具体社区" value="">
                         </td>
                         <td>
                             <label style="color:red;margin-right:5px;">*</label>
@@ -114,10 +158,10 @@
                         <td align="right">性别：</td>
                         <td>
                             <label class="radio-inline" style="width:100px;display:inline-block;">
-                                <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">男
+                                <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="1">男
                             </label>
                             <label class="radio-inline">
-                                <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">女
+                                <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="2">女
                             </label>
                         </td>
                         <td>
@@ -132,7 +176,7 @@
                     <tr>
                         <td></td>
                         <td>
-                           <input id="btnSave" type="button" class="gmbtn_a" value="立即注册"/>
+                           <input id="btnSave" type="submit" class="gmbtn_a" value="立即注册"/>
                         </td>
                         <td></td>
                     </tr>
