@@ -27,7 +27,6 @@
                               <strong class="h4"><?php echo $row['time']?></strong><br> </div>
                               <a href="#" class="h4"><?php echo $row['headline']; ?></a> <small class="block"><a href="#" class=""><?php echo $row['name'] ?></a> <span class="label label-success">发起者</span></small> <small class="block m-t-sm"><?php echo $row['content']; ?></small> </div>
                           </article>
-                          <div class="line pull-in"></div>
                     </section>
                 </section>
 <?php
@@ -43,7 +42,6 @@
                               <div class="pull-right media-xs text-center text-muted"> <strong class="h4"><?php echo $row['time']; ?></strong><br></div>
                               <a href="#" class="h4"><?php echo $row['headline']; ?></a> <small class="block"><a href="#" class=""><?php echo $row['name'] ?></a> <span class="label label-success">发起者</span></small> <small class="block m-t-sm"><?php echo $row['content']; ?></small> </div>
                           </article>
-                          <div class="line pull-in"></div>
                          </section>
                       </section>
 <?php
