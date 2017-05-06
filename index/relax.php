@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 <?php
   require "../login/back_end/clearinfo.php"
  ?>
+=======
+﻿
+>>>>>>> 2ee65e01e9163ee8a22aa7b84b5188d4c8e10c32
 <!DOCTYPE html>
 <html lang="en" class="app">
 <head>
@@ -46,7 +50,12 @@
           </section>
         </section>
       </li>
+<<<<<<< HEAD
       <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="thumb-sm avatar pull-left"> <img src="images/avatar.jpg"> </span> <?php echo $_SESSION['name']; ?> <b class="caret"></b> </a>
+=======
+      <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="thumb-sm avatar pull-left"> <img src="images/avatar.jpg"> </span> <?php echo 
+      $_SESSION['name']; ?> <b class="caret"></b> </a>
+>>>>>>> 2ee65e01e9163ee8a22aa7b84b5188d4c8e10c32
         <ul class="dropdown-menu animated fadeInRight">
           <span class="arrow top"></span>
           <li> <a href="#">设置</a> </li>
@@ -109,92 +118,7 @@
         </section>
       </aside>
 
-            <section id="content">
-              <section class="vbox">
-                <header class="header bg-white b-b b-light">
-                  <p>老人娱乐 <small>(线上及线下)</small></p>
-                </header>
-                <section class="scrollable wrapper">
-                  <div class="row">
-                    <div class="col-lg-6"> <!-- chat -->
-
-                      <!-- /chat -->
-                      <section class="panel panel-default">
-                        <header class="panel-heading"> <span class="label bg-dark">15</span> 活动(未进行) </header>
-                        <section class="panel-body slim-1scro1ll" data-height="230px">
-                          <article class="media"> <span class="pull-left thumb-sm"><img src="images/avatar_default.jpg" class="img-circle"></span>
-                            <div class="media-body">
-                              <div class="pull-right media-xs text-center text-muted"> <strong class="h4">12:30</strong><br>
-                                <small class="label bg-light">1天后</small> </div>
-                              <a href="#" class="h4">结伴爬山</a> <small class="block"><a href="#" class="">李奶奶</a> <span class="label label-success">发起者</span></small> <small class="block m-t-sm">大家快来加入,一起去爬山.</small> </div>
-                          </article>
-                          <div class="line pull-in"></div>
-                          <article class="media"> <span class="pull-left thumb-sm"><i class="fa fa-file-o fa-3x icon-muted"></i></span>
-                            <div class="media-body">
-                              <div class="pull-right media-xs text-center text-muted"> <strong class="h4">20:34</strong><br>
-                                <small class="label bg-light">今天</small> </div>
-                              <a href="#" class="h4">下象棋</a> <small class="block"><a href="#" class="">刘大爷</a> <span class="label label-info">发起者</span></small> <small class="block m-t-sm">闲着没意思,找个人陪我下象棋.</small> </div>
-                          </article>
-                        </section>
-                      </section>
-                      <section class="panel panel-default">
-                        <header class="panel-heading"> <span class="label bg-dark">15</span> 活动(已过期) </header>
-                        <section class="panel-body slim-1scro1ll" data-height="230px">
-                          <article class="media"> <span class="pull-left thumb-sm"><img src="images/avatar_default.jpg" class="img-circle"></span>
-                            <div class="media-body">
-                              <div class="pull-right media-xs text-center text-muted"> <strong class="h4">12:30</strong><br>
-                                <small class="label bg-light">1天前</small> </div>
-                              <a href="#" class="h4">结伴爬山</a> <small class="block"><a href="#" class="">李奶奶</a> <span class="label label-success">发起者</span></small> <small class="block m-t-sm">大家快来加入,一起去爬山.</small> </div>
-                          </article>
-                          <div class="line pull-in"></div>
-                          <article class="media"> <span class="pull-left thumb-sm"><i class="fa fa-file-o fa-3x icon-muted"></i></span>
-                            <div class="media-body">
-                              <div class="pull-right media-xs text-center text-muted"> <strong class="h4">20:34</strong><br>
-                                <small class="label bg-light">3天前</small> </div>
-                              <a href="#" class="h4">下象棋</a> <small class="block"><a href="#" class="">刘大爷</a> <span class="label label-info">发起者</span></small> <small class="block m-t-sm">闲着没意思,找个人陪我下象棋.</small> </div>
-                          </article>
-                        </section>
-                      </section>
-                    </div>
-                    <div class="col-lg-6"> <!-- .comment-list -->
-                      <section class="comment-list block">
-                        <article id="comment-id-1" class="comment-item"> <a class="pull-left thumb-sm avatar"> <img src="images/avatar.jpg" class="img-circle"> </a> <span class="arrow left"></span>
-                          <section class="comment-body panel panel-default">
-                            <header class="panel-heading bg-white"> <a href="#">王奶奶</a>
-                              <label class="label bg-info m-l-xs">留言者</label>
-                              <span class="text-muted m-l-sm pull-right"> <i class="fa fa-clock-o"></i> 5分钟前 </span> </header>
-                            <div class="panel-body">
-                              <div>今天玩得真开心.</div>
-                              <div class="comment-action m-t-sm"> <a href="#comment-form" class="btn btn-default btn-xs"> <i class="fa fa-mail-reply text-muted"></i> 评论 </a> </div>
-                            </div>
-                          </section>
-                        </article>
-                        <!-- .comment-reply -->
-                        <article id="comment-id-2" class="comment-item comment-reply"> <a class="pull-left thumb-sm avatar"> <img src="images/avatar.jpg" class="img-circle"> </a> <span class="arrow left"></span>
-                          <section class="comment-body panel panel-default text-sm">
-                            <div class="panel-body"> <span class="text-muted m-l-sm pull-right"> <i class="fa fa-clock-o"></i> 刚刚 </span> <a href="#">孙大爷</a>
-                              <label class="label bg-dark m-l-xs">回复者</label>
-                              我也是. </div>
-                          </section>
-                        </article>
-                        <!-- / .comment-reply -->
-                        <article class="comment-item media" id="comment-form"> <a class="pull-left thumb-sm avatar"><img src="images/avatar.jpg" class="img-circle"></a>
-                          <section class="media-body">
-                            <form action="" class="m-b-none">
-                              <div class="input-group">
-                                <input type="text" class="form-control" placeholder="在这里输入你的留言">
-                                <span class="input-group-btn">
-                                <button class="btn btn-primary" type="button">留言</button>
-                                </span> </div>
-                            </form>
-                          </section>
-                        </article>
-                      </section>
-                      <!-- / .comment-list --> </div>
-                  </div>
-                </section>
-              </section>
-        <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen" data-target="#nav"></a> </section>
+      <?php require "./back_end/relax.php"; ?>
 
       <aside class="bg-light lter b-l aside-md hide" id="notes">
         <div class="wrapper">Notification</div>
