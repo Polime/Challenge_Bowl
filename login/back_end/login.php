@@ -15,6 +15,7 @@
       }else{
         if ($psd == $row['password']) {
           $_SESSION['name'] = $row['name'];
+          $_SESSION['id'] = $row['id'];
           echo "<script>alert('登录成功!');location='../../index/home.php';</script>";
         }else{
           echo "<script>alert('密码错误!');location='../challeng/login.php';</script>";

@@ -109,31 +109,15 @@
             <section id="content">
         <section class="vbox">
           <section class="scrollable">
-            <div class="wrapper b-b b-light"> <a href="#" data-toggle="class" class="pull-left m-r-sm"><i class="fa fa-star-o fa-1x text"></i><i class="fa fa-star text-warning fa-1x text-active"></i></a> <a href="#email-content, #email-list" data-toggle="class:show,hide" class="pull-right text"> <i class="fa fa-trash-o"></i> </a>
-              <h4 class="m-n"> 收藏</h4>
+            <div class="wrapper b-b b-light"> <a href="#" data-toggle="class" class="pull-left m-r-sm"><i class="fa fa-star text-warning fa-1x text-active"></i></a> <a href="back_end/del_advice.php?id=<?php echo $_GET['id']; ?>"><i class="fa fa-trash-o"></a></i>
             </div>
             <div class="text-sm padder m-t">
-              <div class="block clearfix m-b"> <a href="#" class="thumb-xs inline"><img src="images/avatar.jpg" class="img-circle"></a> <span class="inline m-t-xs">杨医生 &lt;jian635446559@gmail.com&gt; 发送给我</span>
-                <div class="pull-right inline">2017-05-05 (<em>今天</em>)
-                  <div class="btn-group">
-                    <button class="btn btn-default btn-xs" data-toggle="tooltip" data-title="Reply"><i class="fa fa-reply"></i></button>
-                    <button class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
-                    <ul class="dropdown-menu pull-right">
-                      <li><a href="#"><i class="fa fa-reply"></i> 转发</a></li>
-                      <li class="divider"></li>
-                      <li><a href="#">删除</a></li>
-                    </ul>
-                  </div>
+              <div class="block clearfix m-b"> <a href="#" class="thumb-xs inline"><img src="images/avatar.jpg" class="img-circle"></a> <span class="inline m-t-xs"><?php echo $_GET['doc']; ?> 发送给我</span>
+                <div class="pull-right inline"><?php echo $_GET['time']; ?>
                 </div>
               </div>
               <div class="line pull-in"></div>
-              <p>李奶奶</p>
-              <p>每天多喝点白开水!!!</p>
-            </div>
-            <div class="padder">
-              <div class="panel text-sm bg-light">
-                <div class="panel-body"> 点击这里 <a href="#">回复</a> </div>
-              </div>
+              <p><?php echo $_GET['advice']; ?></p>
             </div>
           </section>
         </section>

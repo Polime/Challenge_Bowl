@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+<?php
+  require "../login/back_end/clearinfo.php"
+ ?>
+<!DOCTYPE html>
 <html lang="en" class="app">
 <head>
 <meta charset="utf-8" />
@@ -43,14 +46,14 @@
           </section>
         </section>
       </li>
-      <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="thumb-sm avatar pull-left"> <img src="images/avatar.jpg"> </span> 名字 <b class="caret"></b> </a>
+      <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="thumb-sm avatar pull-left"> <img src="images/avatar.jpg"> </span> <?php echo $_SESSION['name']; ?><b class="caret"></b> </a>
         <ul class="dropdown-menu animated fadeInRight">
           <span class="arrow top"></span>
           <li> <a href="#">设置</a> </li>
           <li> <a href="#"> 通知 </a> </li>
           <li> <a href="docs.html">帮助</a> </li>
           <li class="divider"></li>
-          <li> <a href="modal.lockme.html" data-toggle="ajaxModal" >退出</a> </li>
+          <li> <a href="../login/back_end/logout.php" >退出</a> </li>
         </ul>
       </li>
     </ul>
@@ -115,7 +118,9 @@
             </ul>
           <section class="scrollable hover">
             <ul class="list-group no-radius m-b-none m-t-n-xxs list-group-alt list-group-lg">
-              <li class="list-group-item"> <a href="#" class="thumb-xs pull-left m-r-sm"> <img src="images/avatar_default.jpg" class="img-circle"> </a> <a  href="doc_advice_all.php" class="clear"> <small class="pull-right text-muted">2017-05-05</small> <strong>杨医生</strong> <span class="label label-sm bg-success text-uc">饮食</span> <span>多喝白开水...</span> </a> </li>
+              <?php
+                require "back_end/doc_advice.php";
+               ?>
             </ul>
           </section>
         </section>

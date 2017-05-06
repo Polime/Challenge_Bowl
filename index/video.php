@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+<?php
+  require "../login/back_end/clearinfo.php"
+ ?>
+<!DOCTYPE html>
 <html lang="en" class="app">
 <head>
 <meta charset="utf-8" />
@@ -44,14 +47,14 @@
           </section>
         </section>
       </li>
-      <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="thumb-sm avatar pull-left"> <img src="images/avatar.jpg"> </span> 名字 <b class="caret"></b> </a>
+      <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="thumb-sm avatar pull-left"> <img src="images/avatar.jpg"> </span> <?php echo $_SESSION['name']; ?> <b class="caret"></b> </a>
         <ul class="dropdown-menu animated fadeInRight">
           <span class="arrow top"></span>
           <li> <a href="#">设置</a>
           <li> <a href="#"> 通知 </a> </li>
           <li> <a href="docs.html">帮助</a> </li>
           <li class="divider"></li>
-          <li> <a href="modal.lockme.html" data-toggle="ajaxModal" >退出</a> </li>
+          <li> <a href="../login/back_end/logout.php" >退出</a> </li>
         </ul>
       </li>
     </ul>
@@ -113,12 +116,17 @@
             <li class="active">医生视频</li>
           </ul>
         <div style="margin-left: 20px;margin-top: 10px">
-          <a href="" class="btn btn-xs btn-success m-t-xs" style="width: 100px;height: 40px;font-size: 20px;">加入视频
-        </a>
-        </div>
-        <div style="width: 600px;height: 400px;border: 1px solid black;margin-left: 150px;margin-top: 20px;">
-
-        </div>
+          <table>
+            <tr>
+              <td>医生</td>
+              <td>状态</td>
+            </tr>
+            <tr>
+              <td>杨医生</td>
+              <td>空闲</td>
+              <td><a href="http://simplewebrtc.com/demo.html?doc_yang">建立视频连接</a></td>
+            </tr>
+          </table>
       </section>
       <aside class="bg-light lter b-l aside-md hide" id="notes">
         <div class="wrapper">Familyhealth</div>
