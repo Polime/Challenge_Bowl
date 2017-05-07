@@ -48,6 +48,7 @@
                           <span class="ck" style="vertical-align: middle;"><input id="userCheckbox" type="checkbox" name="userCheckbox"></span>
                           <span style="font-size: 14px;">记住密码</span>
                           <a href="#" class="tcl-login-forget">忘记密码？</a>
+                          <a href="admin_login.php" style="color: red;">医生及社区人员登录</a>
                       </div>
                        <div class="tcl-login-lo">
                           <input type="submit" name="Button1" value="登    录" id="btnLogin">

@@ -31,35 +31,36 @@
                             <div class="tcl-kuangbox" >
 								<div class="loginbox">
 									<div class="title">
-									  <p>家庭医生健康管理中心</p>
+									  <p>社区医院系统</p>
 									</div>
 									<div style="margin-top:10px;overflow:hidden;posiiton:relative;">
 									  <div class="login-l">
 									  <P>
-										1
+										提供给社区医院使用，由运营管理系统开通了专家账号的，可以通过账号密码登录此系统，为老人提供健康方面的专业服务。老人或其子女可通过用户自助中心选择一个家庭医生，医生在此系统可以查看自己的客户的健康档案，处理预约挂号，为自己的患者提供健康评估、进行健康随访记录，回复各种咨询。
 									  </p>
 									</div>
 									<div class="login-r" style="width:290px;">
 									  <div class="kuang">
-										<div class="tcl-longin-user">
-										  用户名：
-										  <input name="userName" type="text" id="txtun_Doctor" value="" class="yanse"></div>
-										<div class="tcl-login-pass">
-										  密&nbsp;&nbsp;&nbsp;码：
-										  <input name="userPass" type="password" id="txtpw_Doctor" value="" ></div>
-										<div class="tcl-login-pass" style="margin-top: 20px;display:none;">
-										  <input  type="text" id="txtcode_Doctor" placeholder="验证码" >
-										  <img alt="" style="height: 40px; cursor: pointer;float:left; " border="0" id="SafeCode_Doctor" width="55" />
-										</div>
-										<div class="tcl-login-keep ">
-										  <span class="ck" style="vertical-align: middle;">
-											<input id="userCheckbox" type="checkbox" name="userCheckbox"></span>
-										  <span style="font-size: 12px;">记住密码</span>
-										</div>
+										<form class="" action="../back_end/admin_login.php" method="post">
+                      <div class="tcl-longin-user">
+  										  用户名：
+  										  <input name="userName" type="text" id="txtun_Doctor" value="" class="yanse"></div>
+  										<div class="tcl-login-pass">
+  										  密&nbsp;&nbsp;&nbsp;码：
+  										  <input name="userPass" type="password" id="txtpw_Doctor" value="" ></div>
+  										<div class="tcl-login-pass" style="margin-top: 20px;display:none;">
+  										  <input  type="text" id="txtcode_Doctor" placeholder="验证码" >
+  										  <img alt="" style="height: 40px; cursor: pointer;float:left; " border="0" id="SafeCode_Doctor" width="55" />
+  										</div>
+  										<div class="tcl-login-keep ">
+  										  <span class="ck" style="vertical-align: middle;">
+  											<input id="userCheckbox" type="checkbox" name="userCheckbox"></span>
+  										  <span style="font-size: 12px;">记住密码</span>
+  										</div>
 
-										<div class="tcl-login-lo" style="text-align:center;margin-bottom:15px;">
-										  <input type="button" name="Button1" value="登    录" id="btnLogin_Doctor"></div>
-
+  										<div class="tcl-login-lo" style="text-align:center;margin-bottom:15px;">
+  										  <input type="submit" name="Button1" value="登    录" id="btnLogin_Doctor"></div>
+										</form>
 										<div class="span_message" style="padding:5px;text-align: center;position:absolute;top:0;right:10px;height:28px;line-height:28px;">
 										  <span id="span_message_Doctor" style="color: Red"></span>
 										  <div id="span_wait_Doctor" style="display:none;">
@@ -87,30 +88,30 @@
 									<div style="margin-top:10px;overflow:hidden;posiiton:relative;">
 									  <div class="login-l">
 									  <P>
-										1
+										社区服务人员，以本系统为服务窗口，协同工作、统一管理。社区人员可以根据老人需求进行相应处理。可以进行养老服务基础数据的收集，实现对老人档案的电子化管理，建立老年人档案动态数据库。
 									  </p>
 									</div>
 									<div class="login-r" style="width:290px;">
 									  <div class="kuang">
-										<div class="tcl-longin-user">
-										  用户名：
-										  <input name="userName" type="text" id="txtun_Service" value="" class="yanse"></div>
-										<div class="tcl-login-pass">
-										  密&nbsp;&nbsp;&nbsp;码：
-										  <input name="userPass" type="password" id="txtpw_Service" value="" ></div>
-										<div class="tcl-login-pass" style="margin-top: 20px;display:none;">
-										  <input  type="text" id="txtcode_Service" placeholder="验证码" >
-										  <img alt="" style="height: 40px; cursor: pointer;float:left; " border="0" id="SafeCode_Service" width="55" />
-										</div>
-										<div class="tcl-login-keep ">
-										  <span class="ck" style="vertical-align: middle;">
-											<input id="userCheckbox" type="checkbox" name="userCheckbox"></span>
-										  <span style="font-size: 12px;">记住密码</span>
-										</div>
-
-										<div class="tcl-login-lo" style="text-align:center;margin-bottom:15px;">
-										  <input type="button" name="Button1" value="登    录" id="btnLogin_Service"></div>
-
+                      <form class="" action="../back_end/admin_login.php" method="post">
+                        <div class="tcl-longin-user">
+    										  用户名：
+    										  <input name="userName" type="text" id="txtun_Service" value="" class="yanse"></div>
+    										<div class="tcl-login-pass">
+    										  密&nbsp;&nbsp;&nbsp;码：
+    										  <input name="userPass" type="password" id="txtpw_Service" value="" ></div>
+    										<div class="tcl-login-pass" style="margin-top: 20px;display:none;">
+    										  <input  type="text" id="txtcode_Service" placeholder="验证码" >
+    										  <img alt="" style="height: 40px; cursor: pointer;float:left; " border="0" id="SafeCode_Service" width="55" />
+    										</div>
+    										<div class="tcl-login-keep ">
+    										  <span class="ck" style="vertical-align: middle;">
+    											<input id="userCheckbox" type="checkbox" name="userCheckbox"></span>
+    										  <span style="font-size: 12px;">记住密码</span>
+    										</div>
+    										<div class="tcl-login-lo" style="text-align:center;margin-bottom:15px;">
+    										  <input type="submit" name="Button2" value="登    录" id="btnLogin_Service"></div>
+                      </form>
 										<div class="span_message" style="padding:5px;text-align: center;position:absolute;top:0;right:10px;height:28px;line-height:28px;">
 										  <span id="span_message_Service" style="color: Red"></span>
 										  <div id="span_wait_Service" style="display:none;">

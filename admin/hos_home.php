@@ -1,3 +1,6 @@
+<?php
+  require "../login/back_end/clearinfo.php"
+?>
 ﻿<!DOCTYPE html>
 <html lang="en" class="app">
 <head>
@@ -14,7 +17,7 @@
 <section class="vbox">
   <header class="bg-dark dk header navbar navbar-fixed-top-xs">
     <div class="navbar-header aside-md"> <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen" data-target="#nav"> <i class="fa fa-bars"></i> </a> <a href="#" class="navbar-brand" data-toggle="fullscreen"><img src="images/logo.png" class="m-r-sm">Familyheath</a> <a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".nav-user"> <i class="fa fa-cog"></i> </a> </div>
- 
+
     <ul class="nav navbar-nav navbar-right hidden-xs nav-user">
       <li class="hidden-xs"> <a href="#" class="dropdown-toggle dk" data-toggle="dropdown"> <i class="fa fa-bell"></i> </a>
         <section class="dropdown-menu aside-xl">
@@ -23,14 +26,14 @@
           </section>
         </section>
       </li>
-      <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="thumb-sm avatar pull-left"> <img src="images/avatar.jpg"> </span> 名字 <b class="caret"></b> </a>
+      <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="thumb-sm avatar pull-left"> <img src="images/avatar.jpg"> </span> <?php echo $_SESSION['name']; ?> <b class="caret"></b> </a>
         <ul class="dropdown-menu animated fadeInRight">
           <span class="arrow top"></span>
           <li> <a href="#">设置</a>
           <li> <a href="#"> 通知 </a> </li>
           <li> <a href="docs.html">帮助</a> </li>
           <li class="divider"></li>
-          <li> <a href="modal.lockme.html" data-toggle="ajaxModal" >退出</a> </li>
+          <li> <a href="../login/back_end/admin_logout.php" >退出</a> </li>
         </ul>
       </li>
     </ul>
@@ -43,7 +46,7 @@
             <div class="slim-scroll" data-height="auto" data-disable-fade-out="true" data-distance="0" data-size="5px" data-color="#333333">
               <nav class="nav-primary hidden-xs">
                 <ul class="nav">
-                  <li class="active"> <a href="hos_home.php" > <i class="fa fa-dashboard icon"> <b class="bg-danger"></b> </i> <span>数据分析</span> </a> 
+                  <li class="active"> <a href="hos_home.php" > <i class="fa fa-dashboard icon"> <b class="bg-danger"></b> </i> <span>数据分析</span> </a>
                     <ul class="nav lt">
                       <li > <a href="old_info.php" > <i class="fa fa-angle-right"></i> <span>老人档案</span> </a> </li>
                       <li > <a href="old_health.php" ><i class="fa fa-angle-right"></i> <span>老人健康</span> </a> </li>
@@ -87,11 +90,11 @@
               <div class="col-sm-6 portlet">
                 <section class="panel panel-info portlet-item">
                   <header class="panel-heading"> 老人档案 </header>
-                  <div class="list-group bg-white"> 
+                  <div class="list-group bg-white">
                    <a href="#" class="list-group-item"> 新增老人 </a>
-                   <a href="#" class="list-group-item"> 老人信息 </a> 
-                   <a href="#" class="list-group-item"> 家属信息 </a> 
-                   <a href="#" class="list-group-item"> 病例信息 </a> 
+                   <a href="#" class="list-group-item"> 老人信息 </a>
+                   <a href="#" class="list-group-item"> 家属信息 </a>
+                   <a href="#" class="list-group-item"> 病例信息 </a>
                  </div>
                 </section>
               </div>
@@ -174,10 +177,10 @@
               <div class="col-sm-6 portlet">
                 <section class="panel panel-info portlet-item">
                   <header class="panel-heading"> 医生管理 </header>
-                  <div class="list-group bg-white"> 
+                  <div class="list-group bg-white">
                    <a href="#" class="list-group-item"> 老人就诊管理 </a>
-                   <a href="#" class="list-group-item"> 视频记录 </a> 
-                   <a href="#" class="list-group-item"> 医生评分 </a> 
+                   <a href="#" class="list-group-item"> 视频记录 </a>
+                   <a href="#" class="list-group-item"> 医生评分 </a>
                  </div>
                 </section>
               </div>
@@ -185,7 +188,7 @@
           </section>
         </section>
         <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen" data-target="#nav"></a> </section>
-      
+
 
       <aside class="bg-light lter b-l aside-md hide" id="notes">
         <div class="wrapper">Familyhealth</div>
