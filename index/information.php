@@ -121,13 +121,13 @@
             <ul class="list-group no-radius m-b-none m-t-n-xxs list-group-alt list-group-lg">
               <p style="font-size: 50px;text-align: center;margin-top: 200px;">老人状态:
                 <span style="color: green;font-size: 150px;">安全</span><br />
-                <input type="button" name="" value="查看老人位置" onclick="map()" style="line-height: 100px;" />
-              </p>
-              <script type="text/javascript">
+                 <input type="submit" name="" value="查看老人位置" onclick="map()" style="line-height: 100px;" />
+                 <script type="text/javascript">
                 function map(){
                   location="map.php";
                 }
               </script>
+              </p>
             </ul>
           </section>
         </section>

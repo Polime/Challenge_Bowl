@@ -1,3 +1,15 @@
+<?php 
+	require "back_end/conn.php";
+	$name = $_SESSION['name'];
+	$sql = "select location_long,location_lat from old_info where name='$name'";
+	$res = $pdo->query($sql);
+	while($row = $res->fetch()){
+		$long = $row[0];
+		$lat = $row[1];
+	}
+	// var_dump($long);
+	// var_dump($lat);
+?>
 <html>
 <html>
 <head>
@@ -17,8 +29,8 @@
 </html>
 <script type="text/javascript">
 	// 百度地图API功能
-	var longitude = 116.331398;
-	var latitude = 39.897445;
+	var longitude = <?php echo $lat ?>;
+	var latitude = <?php echo $long ?>;
 	var map = new BMap.Map("allmap");
 	map.centerAndZoom(new BMap.Point(longitude,latitude),11);
 	map.enableScrollWheelZoom(true);
