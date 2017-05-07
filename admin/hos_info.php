@@ -111,11 +111,6 @@
                 <span style="color: green;">(安全)/</span>
                 <span style="color: red;">1(危险)</span><br />
               </p>
-              <script type="text/javascript">
-                function map(){
-                  location="map.php";
-                }
-              </script>
               <div class="">
                 <table style="font-size: 20px;text-align: center;" >
                   <tr>
@@ -126,14 +121,7 @@
                     <td width=1000px>病史</td>
                     <td width=200px>位置</td>
                   </tr>
-                  <tr style="background-color: #FFF;border: 1px solid #DDD;">
-                    <td><span style="color: red;">危险</span></td>
-                    <td>李如花</td>
-                    <td>99</td>
-                    <td>女</td>
-                    <td>高血糖,心脏病</td>
-                    <td><input type="button" name="" value="查看位置" onclick="map()" style="background-color: red;border: none;color: #FFF;border-radius: 3px;font-size: 20px;" /></td>
-                  </tr>
+                  <?php require "back_end/old_info.php"; ?>
                 </table>
               </div>
             </div>
