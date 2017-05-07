@@ -1,5 +1,6 @@
 <?php
-  require "../login/back_end/clearinfo.php"
+  require "back_end/conn.php";
+  require "../login/back_end/clearinfo.php";
  ?>
 <!DOCTYPE html>
 <html lang="en" class="app">
@@ -121,11 +122,19 @@
               <td>医生</td>
               <td>状态</td>
             </tr>
+            <?php 
+              $sql = "select * from doc_info order by idcard";
+              $res = $pdo->query($sql);
+              foreach($res as $row){
+            ?>
             <tr>
-              <td>杨医生</td>
+              <td><?php echo$row['name'] ?></td>
               <td>空闲</td>
-              <td><a href="http://simplewebrtc.com/demo.html?doc_yang">建立视频连接</a></td>
+              <td><a href="http://simplewebrtc.com/demo.html?<?php echo $row['user'] ?>">建立视频连接</a></td>
             </tr>
+            <?php
+              }
+             ?>
           </table>
       </section>
       <aside class="bg-light lter b-l aside-md hide" id="notes">

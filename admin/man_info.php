@@ -1,3 +1,7 @@
+<?php 
+  require "../login/back_end/clearinfo.php";
+  
+ ?>
 <!DOCTYPE html>
 <html lang="en" class="app">
 <head>
@@ -14,27 +18,6 @@
 <section class="vbox">
   <header class="bg-dark dk header navbar navbar-fixed-top-xs">
     <div class="navbar-header aside-md"> <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen" data-target="#nav"> <i class="fa fa-bars"></i> </a> <a href="#" class="navbar-brand" data-toggle="fullscreen"><img src="images/logo.png" class="m-r-sm">Familyheath</a> <a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".nav-user"> <i class="fa fa-cog"></i> </a> </div>
-    <ul class="nav navbar-nav hidden-xs">
-      <li class="dropdown"> <a href="#" class="dropdown-toggle dker" data-toggle="dropdown"> <i class="fa fa-building-o"></i> <span class="font-bold">本周</span> </a>
-        <section class="dropdown-menu aside-xl on animated fadeInLeft no-borders lt">
-          <div class="wrapper lter m-t-n-xs"> <a href="#" class="thumb pull-left m-r"> <img src="images/avatar.jpg" class="img-circle"> </a>
-            <div class="clear"> <a href="#"><span class="text-white font-bold">名字</a></span> <small class="block">住址</small> <a href="#" class="btn btn-xs btn-success m-t-xs">本周评分:90</a> </div>
-          </div>
-          <div class="row m-l-none m-r-none m-b-n-xs text-center">
-            <div class="col-xs-4">
-              <div class="padder-v"> <span class="m-b-xs h4 block text-white">2,035</span> <small class="text-muted">平均步数</small> </div>
-            </div>
-            <div class="col-xs-4 dk">
-              <div class="padder-v"> <span class="m-b-xs h4 block text-white">10</span> <small class="text-muted">睡眠时间</small> </div>
-            </div>
-            <div class="col-xs-4">
-              <div class="padder-v"> <span class="m-b-xs h4 block text-white">85</span> <small class="text-muted">健康分数</small> </div>
-            </div>
-          </div>
-        </section>
-      </li>
-
-    </ul>
     <ul class="nav navbar-nav navbar-right hidden-xs nav-user">
       <li class="hidden-xs"> <a href="#" class="dropdown-toggle dk" data-toggle="dropdown"> <i class="fa fa-bell"></i> </a>
         <section class="dropdown-menu aside-xl">
@@ -43,7 +26,7 @@
           </section>
         </section>
       </li>
-      <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="thumb-sm avatar pull-left"> <img src="images/avatar.jpg"> </span> 名字 <b class="caret"></b> </a>
+      <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="thumb-sm avatar pull-left"> <img src="images/avatar.jpg"> </span> <?php echo $_SESSION['name'] ?> <b class="caret"></b> </a>
         <ul class="dropdown-menu animated fadeInRight">
           <span class="arrow top"></span>
           <li> <a href="#">设置</a>
