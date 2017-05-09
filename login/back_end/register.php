@@ -9,6 +9,9 @@
 	$sex = $_POST['inlineRadioOptions'];
 	$code = $_POST['a_SmsCode'];
 	$address = $_POST['h_Address'];
+	date_default_timezone_set('Asia/Shanghai');
+	$time = date("Y-m-d H:m:s");
+	var_dump($time);
 	// var_dump($phone);
 	// var_dump($verify);
 	// var_dump($password);
@@ -25,7 +28,7 @@
 	if($verify == $code){
 		if($password == $passagin){
 			if(strlen($cardid) == 18){
-				$sql = "insert into old_info(id,name,sex,password,phone,comm) value('$cardid','$name','$sex','$password','$phone','$address')";
+				$sql = "insert into old_info(id,name,sex,password,phone,comm,time) value('$cardid','$name','$sex','$password','$phone','$address','$time')";
 				$insert = $pdo->exec($sql);
 				if($insert){
 					echo "<script>alert('注册成功');location='../challeng/login.php';</script>";

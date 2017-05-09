@@ -48,7 +48,7 @@
                 <ul class="nav">
                   <li class="active"> <a href="man_home.php" > <i class="fa fa-columns icon"> <b class="bg-warning"></b> </i> <span class="pull-right"> <i class="fa fa-angle-down text"></i> <i class="fa fa-angle-up text-active"></i> </span> <span>数据分析</span> </a>
                     <ul class="nav lt">
-                      <li > <a href="layout-c.html" > <i class="fa fa-angle-right"></i> <span>老人档案</span> </a> </li>
+                      <li > <a href="man_old_info.php" > <i class="fa fa-angle-right"></i> <span>老人档案</span> </a> </li>
                       <li > <a href="old_health.php" ><i class="fa fa-angle-right"></i> <span>老人健康</span> </a> </li>
                       <li > <a href="equipment.php" ><i class="fa fa-angle-right"></i> <span>设备管理</span> </a> </li>
                       <li > <a href="location.php" ><i class="fa fa-angle-right"></i> <span>人员管理</span> </a> </li>
@@ -90,9 +90,9 @@
                 <section class="panel panel-info portlet-item">
                   <header class="panel-heading"> 老人档案 </header>
                   <div class="list-group bg-white">
-                   <a href="#" class="list-group-item"> 新增老人 </a>
-                   <a href="#" class="list-group-item"> 老人信息 </a>
-                   <a href="#" class="list-group-item"> 家属信息 </a>
+                   <a href="man_old_info.php#new_old" class="list-group-item"> 新增老人 </a>
+                   <a href="man_old_info.php#old_info" class="list-group-item"> 老人信息 </a>
+                   <a href="man_old_info.php#old" class="list-group-item"> 家属信息 </a>
                  </div>
                 </section>
               </div>
