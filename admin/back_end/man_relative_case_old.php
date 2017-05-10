@@ -7,9 +7,9 @@
 	if($old_id == "" && $old_name != ""){
 		$sql = "select * from realtive_case_old where old_name = '$old_name'";
 	}else if($old_name == "" && $old_id != ""){
-		$sql = "select * from realtive_case_old where id = $old_id";
+		$sql = "select * from realtive_case_old where old_id = $old_id";
 	}else if($old_name != "" && $old_id != ""){
-		$sql = "select * from realtive_case_old where id=$old_id and old_name ='$old_name'";
+		$sql = "select * from realtive_case_old where old_id=$old_id and old_name ='$old_name'";
 	}else{
 		echo "<script>alert('请选择老人');location='man_old_info.php';</script>";
 	}
@@ -28,7 +28,7 @@
 		</tr>
 <?php
 	foreach($res as $row){
-		$number = $row['number'];
+		$number = $row['id'];
 ?>		
 		<tr>
 			<td><?php echo $row['rel_name']; ?></td>

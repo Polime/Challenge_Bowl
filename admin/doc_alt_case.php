@@ -105,7 +105,7 @@
               <tr>
                 <form method="post" action="back_end/alt_case.php">
                   <td><?php echo $row['name'] ?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                  <td><input type="text" name="case" value="<?php echo $row['case']?>"></td>
+                  <td><input type="text" name="case" value="<?php echo $row['cases']?>"></td>
                   <td>
                     <input type="hidden" name="name" value="<?php echo $row['name']?>">
                     <input type="submit" name="" value="确认修改">

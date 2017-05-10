@@ -97,7 +97,7 @@
               <?php 
                 $rel_id = $_POST['rel_id'];
                 // var_dump($rel_id);
-                $sql = "select * from realtive_case_old where number = $rel_id";
+                $sql = "select * from realtive_case_old where id = $rel_id";
                 $res = $pdo->query($sql);
                 // var_dump($res);
                 foreach($res as $row){
@@ -109,7 +109,9 @@
                   <td><input type="text" name="age" value="<?php echo $row['age']; ?>"></td>
                   <td><input type="text" name="phone" value="<?php echo $row['phone'];?>"></td>
                   <td><?php echo $row['old_name'] ?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                  <td><input type="submit" name="sub" id="sub" value="确认修改"></td>
+                  <td>
+                  <input type="hidden" name="old" value="<?php echo $row['old_name']?>">
+                  <input type="submit" name="sub" id="sub" value="确认修改"></td>
                 </form>
               </tr>
               <?php

@@ -12,7 +12,7 @@
 	// var_dump($old);
 	$sql = "update realtive_case_old set rel_name='$name',sex='$sex',age=$age,phone=$phone where old_name='$old'";
 	$res = $pdo->exec($sql);
-	var_dump($res);
+	// var_dump($res);
 	if($res){
 		echo"<script>alert('修改成功');location='../man_old_info.php'</script>";
 	}else{

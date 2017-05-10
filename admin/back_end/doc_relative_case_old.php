@@ -7,9 +7,9 @@
 	if($old_id == "" && $old_name != ""){
 		$sql = "select * from realtive_case_old where old_name = '$old_name'";
 	}else if($old_name == "" && $old_id != ""){
-		$sql = "select * from realtive_case_old where id = $old_id";
+		$sql = "select * from realtive_case_old where old_id = $old_id";
 	}else if($old_name != "" && $old_id != ""){
-		$sql = "select * from realtive_case_old where id=$old_id and old_name ='$old_name'";
+		$sql = "select * from realtive_case_old where old_id=$old_id and old_name ='$old_name'";
 	}else{
 		echo "<script>alert('请选择老人');location='doc_old_info.php';</script>";
 	}
@@ -53,7 +53,7 @@
 ?>		
 		<tr>
 			<td><?php echo $ro['old_name']; ?></td>
-			<td><?php echo $ro['case']; ?></td>
+			<td><?php echo $ro['cases']; ?></td>
 			<td><?php $old = substr($ro['id'], 6,4);$age = 2017-$old;echo $age;?></td>
 			<td>
 				<form method="post" action="doc_alt_case.php">
