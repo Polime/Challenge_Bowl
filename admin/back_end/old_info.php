@@ -1,4 +1,4 @@
-<?php 
+<?php
 	require "conn.php";
 	$sql = "select * from old_info where safe = 1";
 	$res = $pdo->query($sql);
@@ -10,7 +10,7 @@
     <td><?php echo $row['name'] ?></td>
     <td><?php $old = substr($row['id'], 6,4);$age = 2017-$old;echo $age;?></td>
     <td><?php echo $row['sex'] ?></td>
-    <td><?php echo $row['case'] ?></td>
+    <td><?php echo $row['cases'] ?></td>
     <td>
     <form method="post" action="./map.php">
     	<input type="hidden" name="old_name" value="<?php echo $name?>">
@@ -21,4 +21,3 @@
 <?php
 	}
 ?>
-  

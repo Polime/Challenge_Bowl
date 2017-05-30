@@ -1,4 +1,4 @@
-<?php 
+<?php
 	require "back_end/conn.php";
 	$name = $_SESSION['name'];
 	$sql = "select location_long,location_lat from old_info where name='$name'";
